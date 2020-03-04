@@ -1,0 +1,2070 @@
+Bug _Type,Jira_Summary,Issue_key,Kibana_Description,Required_Description
+FR,Aws-Prod(Sponsor)- An exception of type 'System.NullReferenceException' occurred and was caught.,MSMPC-2594,"September 18th 2019, 22:25:11.548        Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               September 18th 2019, 22:25:11.548        *Message : Object reference not set to an instance of an object.*
+
+               September 18th 2019, 22:25:11.548        HResult : -2147467261
+
+               September 18th 2019, 22:25:11.548        Win32 ThreadId:4536
+
+               September 18th 2019, 22:25:11.548        Timestamp: 09/18/2019 16:55:10.7882661
+
+               September 18th 2019, 22:25:11.548        -----------------------------------------------------------------------------
+
+               September 18th 2019, 22:25:11.548        Help link :
+
+               September 18th 2019, 22:25:11.548        MachineName : PRODSPONSORHOST
+
+               September 18th 2019, 22:25:11.548        Category: UI
+
+               September 18th 2019, 22:25:11.548        *An exception of type 'System.NullReferenceException' occurred and was caught.*
+
+               September 18th 2019, 22:25:11.548        Data : System.Collections.ListDictionaryInternal
+
+               September 18th 2019, 22:25:11.548        Additional Info:
+
+               September 18th 2019, 22:25:11.548        WindowsIdentity : IIS APPPOOL\HPSponsorAppPool
+
+               September 18th 2019, 22:25:11.548        ----------------------------------------
+
+               September 18th 2019, 22:25:11.548        Category: General
+
+               September 18th 2019, 22:25:11.548        ----------------------------------------
+
+               September 18th 2019, 22:25:11.548        09/18/2019 16:55:10
+
+               September 18th 2019, 22:25:11.548        TargetSite : System.Web.Mvc.ActionResult GetPlaceOnContractDevices(Int32)
+
+               September 18th 2019, 22:25:11.548        TimeStamp : 9/18/2019 4:55:10 PM
+
+               September 18th 2019, 22:25:11.548        FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+               September 18th 2019, 22:25:11.548        AppDomainName : /LM/W3SVC/1859289084/ROOT-1-132132028875404474
+
+               September 18th 2019, 22:25:11.548        ThreadIdentity : 90013896
+
+               September 18th 2019, 22:25:11.548        EventId: 100
+
+               September 18th 2019, 22:25:11.548        ProcessId: 4404
+
+               September 18th 2019, 22:25:11.548        Extended Properties:
+
+               September 18th 2019, 22:25:11.548        Message: Url: [http://mpc-sponsor-prd.int.hp.com/CRM/Device/GetPlaceOnContractDevices?customerOrgId=53781], HttpMethod: GET, Elapsed time (ApplicationStartRequest till ApplicationEndRequest): 682.2911
+
+               September 18th 2019, 22:25:11.548        Timestamp: 09/18/2019 16:55:10.7882661
+
+               September 18th 2019, 22:25:11.548        Message: HandlingInstanceID: e0716821-6efa-4a75-aa51-34bf297a5ddc
+
+               September 18th 2019, 22:25:11.548        Source : PMPS.Web
+
+               September 18th 2019, 22:25:11.548        Stack Trace :    at PMPS.Web.Controllers.CRM.DeviceController.GetPlaceOnContractDevices(Int32 customerOrgId) in C:\app\Web\PMPS.Web\Controllers\CRM\DeviceController.cs:line 1766
+
+               September 18th 2019, 22:25:11.548        Priority: 0
+
+               September 18th 2019, 22:25:11.548        Severity: Error
+
+               September 18th 2019, 22:25:11.548        Machine: PRODSPONSORHOST
+
+               September 18th 2019, 22:25:11.548        ----------------------------------------", Message: Url: [http://mpc-sponsor-prd.int.hp.com/CRM/Device/GetPlaceOnContractDevices?
+FR,AWS-Prod(Iedp)- An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.,MSMPC-2593,"               September 19th 2019, 05:03:42.266        Message: HandlingInstanceID: 099e7ef8-8c6b-428c-9b5b-ad1eae5b15af
+
+               September 19th 2019, 05:03:42.266        Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               September 19th 2019, 05:03:42.266        Message : Specified argument was out of the range of valid values.
+
+               September 19th 2019, 05:03:42.266        Help link :
+
+               September 19th 2019, 05:03:42.266        ActualValue :
+
+               September 19th 2019, 05:03:42.266        ParamName : An invalid onboarding task id was provided: 0
+
+               September 19th 2019, 05:03:42.266        MachineName : MYIEDPPRODHOST
+
+               September 19th 2019, 05:03:42.266        TimeStamp : 9/18/2019 11:33:35 PM
+
+               September 19th 2019, 05:03:42.266        FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+               September 19th 2019, 05:03:42.266        ----------------------------------------
+
+               September 19th 2019, 05:03:42.266        ----------------------------------------
+
+               September 19th 2019, 05:03:42.266        Timestamp: 09/18/2019 23:33:35.5808474
+
+               September 19th 2019, 05:03:42.266        Message: Could not set owner as 55746 for customer org ID 15940
+
+               September 19th 2019, 05:03:42.266        Category: UI
+
+               September 19th 2019, 05:03:42.266        ProcessId: 3628
+
+               September 19th 2019, 05:03:42.266        Win32 ThreadId:4784
+
+               September 19th 2019, 05:03:42.266        UserOrgID - 15149
+
+               September 19th 2019, 05:03:42.266        ThreadIdentity : eguieetrhcptyko1pqn6k3idg75mf7rz
+
+               September 19th 2019, 05:03:42.266        Severity: Error
+
+               September 19th 2019, 05:03:42.266        Severity: Information
+
+               September 19th 2019, 05:03:42.266        ----------------------------------------------------------------------------------
+
+               September 19th 2019, 05:03:42.266        09/18/2019 23:33:35
+
+               September 19th 2019, 05:03:42.266        Parameter name: An invalid onboarding task id was provided: 0
+
+               September 19th 2019, 05:03:42.266        Source : PMPS.Model.NHibernate
+
+               September 19th 2019, 05:03:42.266        TargetSite : PMPS.Model.DomainObjects.Onboarding.OnboardingTaskAndContractDetail GetOnBoardingAndContractDetails(Int32)
+
+               September 19th 2019, 05:03:42.266        AppDomainName : /LM/W3SVC/1447213216/ROOT-1-132132391096202155
+
+               September 19th 2019, 05:03:42.266        WindowsIdentity : IIS APPPOOL\HPIedpAppPool
+
+               September 19th 2019, 05:03:42.266        Category: BLL
+
+               September 19th 2019, 05:03:42.266        Priority: 0
+
+               September 19th 2019, 05:03:42.266        ----------------------------------------
+
+               September 19th 2019, 05:03:42.266        *An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.*
+
+               September 19th 2019, 05:03:42.266        Data : System.Collections.ListDictionaryInternal
+
+               September 19th 2019, 05:03:42.266        HResult : -2146233086
+
+               September 19th 2019, 05:03:42.266        Additional Info:
+
+               September 19th 2019, 05:03:42.266        Machine: MYIEDPPRODHOST
+
+               September 19th 2019, 05:03:42.266        Win32 ThreadId:4784
+
+               September 19th 2019, 05:03:42.266        Extended Properties:
+
+               September 19th 2019, 05:03:42.266        Machine: MYIEDPPRODHOST
+
+               September 19th 2019, 05:03:42.266        Extended Properties: UserID - 7872
+
+               September 19th 2019, 05:03:42.266        Stack Trace :    at PMPS.Model.NHibernate.OnBoarding.OnBoardingTaskRepository.GetOnBoardingAndContractDetails(Int32 onBoardingTaskId) in C:\app\Model\PMPS.Model.NHibernate\OnBoarding\OnBoardingTaskRepository.cs:line 194
+
+               September 19th 2019, 05:03:42.266           at PMPS.Service.OnBoarding.OnBoardingService.SendReminderEmailToAccountManager(Int32 taskId, Int32 accountManagerid) in C:\app\Service\PMPS.Service.Impl\OnBoarding\OnBoardingService.cs:line 287
+
+               September 19th 2019, 05:03:42.266        Priority: 0
+
+               September 19th 2019, 05:03:42.266        EventId: 100
+
+               September 19th 2019, 05:03:42.266        ProcessId: 3628
+
+               September 19th 2019, 05:03:42.266        EventId: 80028
+
+               September 19th 2019, 05:03:42.266        ----------------------------------------
+
+               September 19th 2019, 05:03:42.266       ",PMPS.Model.NHibernate.OnBoarding.OnBoardingTaskRepository.GetOnBoardingAndContractDetails(Int32 onBoardingTaskId) in C:\app\Model\PMPS.Model.NHibernate\OnBoarding\OnBoardingTaskRepository.cs:line 194
+FR,Aws-Prod(Sponsor)-Message: SendNewLocationDetailsToOrion - Orion returned error ,MSMPC-2916," 
+
+October 16th 2019, 22:24:13.903              Message: *SendNewLocationDetailsToOrion* - Orion returned error - errorCode is 217 and returnMessage *is Maximum stored procedure, function, trigger, or view nesting level exceeded (limit 32).* Error inserting Address",Message: *SendNewLocationDetailsToOrion* - Orion returned error - errorCode is 217 and returnMessage *
+FR,Aws-Prod(Sponsor)-SendUpdatedDeviceDetailsToOrion - Orion returned error ,MSMPC-2915,"October 16th 2019, 22:24:14.660              Message: *SendUpdatedDeviceDetailsToOrion* - Orion returned error - errorCode is 217 and returnMessage is  Maximum stored procedure, function, trigger, or view nesting level exceeded (limit 32). Error Updating Printer: 140610050"," *SendUpdatedDeviceDetailsToOrion* - Orion returned error - errorCode is 217 and returnMessage is  Maximum stored procedure, function, trigger, or view nesting level exceeded (limit 32)."
+FR,AWS-Prod(customer)-The controller for path '/CRM/' was not found or does not implement IController.,MSMPC-2592," 
+
+September 18th 2019, 21:19:36.609        Message: Url: [http://mpc-customer-prd.ext.hp.com/CRM/], HttpMethod: OPTIONS, Error details: *The controller for path '/CRM/' was not found or does not implement IController*.    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)","Message: Url: [http://mpc-customer-prd.ext.hp.com/CRM/], HttpMethod: OPTIONS, Error details: *The controller for path '/CRM/' was not found or does not implement IController*"
+FR,Aws-Prod(Customer)-SendServiceRequestDetailsToOrion - Orion returned error - errorCode ,MSMPC-2762,"October 4th 2019, 02:02:32.497 Message: *SendServiceRequestDetailsToOrion - Orion returned error - errorCode is 1205 and returnMessage is Transaction (Process ID 63) was deadlocked on lock resources with another process and has been chosen as the deadlock victim*. Rerun the transaction. Error inserting Service Task",Message: *SendServiceRequestDetailsToOrion - Orion returned error - errorCode is 1205 and returnMessage is Transaction (Process ID 63) was deadlocked on lock resources with another process and has been chosen as the deadlock victim*
+FR,"Aws-Prod(Iedp)-, Procedure usp_InsertUpdateSite, Line 323, Message: Cannot insert the value NULL into column 'PostalCodeID', table 'SDP.dbo.SDP_Address'; column does not allow nulls. INSERT fails.",MSMPC-2760,"|October 3rd 2019, 19:36:10.809 Message : Error 515, Level 16, State 2*, Procedure usp_InsertUpdateSite, Line 323, Message: Cannot insert the value NULL into column 'PostalCodeID', table 'SDP.dbo.SDP_Address'; column does not allow nulls. INSERT fails.*
+               October 3rd 2019, 19:36:10.809 ClientConnectionId : c703819c-4091-402f-8bc8-556f8f08197c
+               October 3rd 2019, 19:36:10.809 TargetSite : *Void OnError(System.Data.SqlClient.SqlException, Boole*an, System.Action`1[System.Action])
+               October 3rd 2019, 19:36:10.809 HResult : -2146232060
+               October 3rd 2019, 19:36:10.809 Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+               October 3rd 2019, 19:36:10.809 ThreadIdentity : ruwwrjzr9d5af81iyq7igiffsq354p81
+               October 3rd 2019, 19:36:10.809 EventId: 100
+               October 3rd 2019, 19:36:10.809 Severity: Error
+               October 3rd 2019, 19:36:10.809 HelpLink.EvtID - 50000
+               October 3rd 2019, 19:36:10.809    at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16
+               October 3rd 2019, 19:36:10.809 Message: HandlingInstanceID: 2549678c-e22a-4c12-8033-7f2965ea2008
+               October 3rd 2019, 19:36:10.809 10/03/2019 14:06:07
+               October 3rd 2019, 19:36:10.809 Help link :
+               October 3rd 2019, 19:36:10.809 Errors : System.Data.SqlClient.SqlErrorCollection
+               October 3rd 2019, 19:36:10.809 Class : 16
+               October 3rd 2019, 19:36:10.809 Server : managed-print-central-prd.cvreuzsf8rfz.us-west-2.rds.amazonaws.com
+               October 3rd 2019, 19:36:10.809    at *PMPS.Model.NHibernate.Common.Repositories.NHibernateADOTableValueRepository.ExecuteTableValuedSPWithIdParameter(String sprocName, DataSet dataSet, String[] dataTableNames, Int32 orgUnitId, Boolean deleteAddress) in* C:\app\Model\PMPS.Model.NHibernate\Common\Repositories\NHibernateADOTableValueRepository.cs:line 1295
+               October 3rd 2019, 19:36:10.809 FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+               October 3rd 2019, 19:36:10.809 Category: BLL
+               October 3rd 2019, 19:36:10.809 Machine: MYIEDPPRODHOST
+               October 3rd 2019, 19:36:10.809 Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+               October 3rd 2019, 19:36:10.809 Message: PMPS.Infrastructure.ExceptionHandling.ExceptionTypes.BusinessLogicException: Contacte o Suporte atravÃ©s de ""Contacte a HP"" com o ID do Token de Erro 2549678c-e22a-4c12-8033-7f2965ea2008.
+               October 3rd 2019, 19:36:10.809 Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+               October 3rd 2019, 19:36:10.809 Source : .Net SqlClient Data Provider
+               October 3rd 2019, 19:36:10.809 State : 1
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               October 3rd 2019, 19:36:10.809 AppDomainName : /LM/W3SVC/1447213216/ROOT-1-132145589005093540
+               October 3rd 2019, 19:36:10.809 ProcessId: 5836
+               October 3rd 2019, 19:36:10.809 HelpLink.ProdVer - 13.00.5216
+               October 3rd 2019, 19:36:10.809 HelpLink.LinkId - 20476
+               October 3rd 2019, 19:36:10.809 An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.
+               October 3rd 2019, 19:36:10.809 Procedure : usp_RethrowError
+               October 3rd 2019, 19:36:10.809 ErrorCode : -2146232060
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               October 3rd 2019, 19:36:10.809    at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+               October 3rd 2019, 19:36:10.809    at PMPS.Service.CRM.LocationService.<>c__DisplayClass41_0.<CreateSite>b__0() in C:\app\Service\PMPS.Service.Impl\CRM\LocationService.cs:line 409
+               October 3rd 2019, 19:36:10.809    at PMPS.Model.NHibernate.NHUnitOfWorkExtension.ExecuteOperationsAndCommit(Action operation, IsolationLevel isolationLevel) in C:\app\Model\PMPS.Model.NHibernate\NHUnitOfWorkExtension.cs:line 37
+               October 3rd 2019, 19:36:10.809    at PMPS.Service.CRM.LocationService.CreateSite(OrgUnitSite orgunitSite, Site site, IEnumerable`1 siteAddresses, Int32 countryId) in C:\app\Service\PMPS.Service.Impl\CRM\LocationService.cs:line 411
+               October 3rd 2019, 19:36:10.809 TimeStamp : 10/3/2019 2:06:07 PM
+               October 3rd 2019, 19:36:10.809 WindowsIdentity : IIS APPPOOL\HPIedpAppPool
+               October 3rd 2019, 19:36:10.809 Priority: 0
+               October 3rd 2019, 19:36:10.809 HelpLink.EvtSrc - MSSQLServer
+               October 3rd 2019, 19:36:10.809 ----------------------------------------
+               October 3rd 2019, 19:36:10.809    at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)
+               October 3rd 2019, 19:36:10.809    at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.RethrowRecommended(Exception chainException, Exception originalException)
+               October 3rd 2019, 19:36:10.809    at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+               October 3rd 2019, 19:36:10.808 Win32 ThreadId:4128
+               October 3rd 2019, 19:36:10.808 UserOrgID €“ 16299|","Message: Cannot insert the value NULL into column 'PostalCodeID', table 'SDP.dbo.SDP_Address'; column does not allow nulls. INSERT fails.*"
+FR,Aws-Prod(Sponsor)-An exception of type 'System.IndexOutOfRangeException' occurred and was caught,MSMPC-2761,"               Extended Properties: UserID €“ 19817
+
+               October 3rd 2019, 15:32:41.028 ----------------------------------------
+
+               October 3rd 2019, 15:32:41.028 *An exception of type 'System.IndexOutOfRangeException' occurred and was caught.*
+
+               October 3rd 2019, 15:32:41.028 HResult : -2146233080
+
+               October 3rd 2019, 15:32:41.028 TimeStamp : 10/3/2019 10:02:40 AM
+
+               October 3rd 2019, 15:32:41.028 Machine: PRODSPONSORHOST
+
+               October 3rd 2019, 15:32:41.028 ----------------------------------------
+
+               October 3rd 2019, 15:32:41.028 Timestamp: 10/03/2019 10:02:40.3073677
+
+               October 3rd 2019, 15:32:41.028 Machine: PRODSPONSORHOST
+
+               October 3rd 2019, 15:32:41.028 Win32 ThreadId:1556
+
+               October 3rd 2019, 15:32:41.028 Extended Properties: UserID - 19817
+
+               October 3rd 2019, 15:32:41.028 Priority: -1
+
+               October 3rd 2019, 15:32:41.028 EventId: 6352
+
+               October 3rd 2019, 15:32:41.028 Machine: PRODSPONSORHOST
+
+               October 3rd 2019, 15:32:41.028 ProcessId: 5564
+
+               October 3rd 2019, 15:32:41.028 Win32 ThreadId:1556
+
+               October 3rd 2019, 15:32:41.028 Timestamp: 10/03/2019 10:02:40.3230075
+
+               October 3rd 2019, 15:32:41.028 Message: HandlingInstanceID: e8ef51fe-492f-439b-a2b6-6ff77541488b
+
+               October 3rd 2019, 15:32:41.028 -------------------------------------------------------------------------------
+
+               October 3rd 2019, 15:32:41.028 Type *: System.IndexOutOfRangeException,* mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               October 3rd 2019, 15:32:41.028 Data : System.Collections.ListDictionaryInternal
+
+               October 3rd 2019, 15:32:41.028 Priority: 0
+
+               October 3rd 2019, 15:32:41.028 EventId: 100
+
+               October 3rd 2019, 15:32:41.028 Severity: Information
+
+               October 3rd 2019, 15:32:41.028 Severity: Error
+
+               October 3rd 2019, 15:32:41.028 Message: Url: [http://mpc-sponsor-prd.int.hp.com/Channel/Channel/DscApproveAfterPreview], HttpMethod: POST, Elapsed time (ApplicationStartRequest till ApplicationEndRequest): 812.5341
+
+               October 3rd 2019, 15:32:41.028 UserOrgID - 87
+
+               October 3rd 2019, 15:32:41.028 Timestamp: 10/03/2019 10:02:40.3073677
+
+               October 3rd 2019, 15:32:41.028 Source : System.Data
+
+               October 3rd 2019, 15:32:41.028 TargetSite : NodePath GetNodeByIndex(Int32)
+
+               October 3rd 2019, 15:32:41.028    at PMPS.Model.NHibernate.Channel.ChannelScenarioVersionRepository.GetPreviewData(Int32 scenarioVersionId) in C:\app\Model\PMPS.Model.NHibernate\Channel\ChannelScenarioVersionRepository.cs:line 639
+
+               October 3rd 2019, 15:32:41.028 WindowsIdentity : IIS APPPOOL\HPSponsorAppPool
+
+               October 3rd 2019, 15:32:41.028 Category: BLL
+
+               October 3rd 2019, 15:32:41.028 Extended Properties:
+
+               October 3rd 2019, 15:32:41.028 Timestamp: 10/3/2019 10:02:40 AM
+
+               October 3rd 2019, 15:32:41.028 App Domain: /LM/W3SVC/1859289084/ROOT-1-132145587944430197
+
+               October 3rd 2019, 15:32:41.028 ProcessId: 5564
+
+               October 3rd 2019, 15:32:41.028 Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+               October 3rd 2019, 15:32:41.028 UserOrgID - 87
+
+               October 3rd 2019, 15:32:41.028 ----------------------------------------
+
+               October 3rd 2019, 15:32:41.028 10/03/2019 10:02:40
+
+               October 3rd 2019, 15:32:41.028 Help link :
+
+               October 3rd 2019, 15:32:41.028 Stack Trace :    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+
+               October 3rd 2019, 15:32:41.028    at PMPS.Service.Channel.ChannelProposalService.GetPreviewData(GetPreviewDataRequest request) in C:\app\Service\PMPS.Service.Impl\Channel\ChannelProposalService.cs:line 695
+
+               October 3rd 2019, 15:32:41.028 FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+               October 3rd 2019, 15:32:41.028 AppDomainName : /LM/W3SVC/1859289084/ROOT-1-132145587944430197
+
+               October 3rd 2019, 15:32:41.028 ThreadIdentity : 90015960",*An exception of type 'System.IndexOutOfRangeException' occurred and was caught.*
+Deadlock,Aws-Prod(iedp-cmps)-usp_GetDevices SP - message is Transaction (Process ID 632) was deadlocked ,MSMPC-2724," 
+
+September 30th 2019, 18:57:21.316        Message: *GetDevices - caught exception while calling usp_GetDevices SP - message is Transaction (Process ID 632) was deadlocked on lock resources with another process and has been chosen as the deadlock victim.* Rerun the transaction. , stacktrace is    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)", Message: *GetDevices - caught exception while calling usp_GetDevices SP - message is Transaction (Process ID 632) was deadlocked on lock resources with another process and has been chosen as the deadlock victim.*
+Deadlock,"Aws-Prod(Sponsor) - Procedure usp_SaveDevice, Line 253, Message: Transaction (Process ID 618) was deadlocked on lock",MSMPC-2603,"              
+
+September 19th 2019, 19:53:11.433        Message: *Error occured while saving ManagedComponents dataSystem.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, State 52, Procedure usp_SaveDevice, Line 253, Message: Transaction (Process ID 618) was deadlocked on lock* | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction."," Message: *Error occured while saving ManagedComponents dataSystem.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, State 52, Procedure usp_SaveDevice, Line 253, Message: Transaction (Process ID 618) was deadlocked on lock*"
+NFR,Iedp-Prod(HPID issue- 379 Message: System.Exception: Exception of type 'System.Exception' was thrown.,MSMPC-2636," 
+
+September 23rd 2019, 19:17:08.379        *Message: System.Exception: Exception of type 'System.Exception' was thrown*.
+
+               September 23rd 2019, 19:17:08.379        ----------------------------------------
+
+               September 23rd 2019, 19:17:08.379        ----------------------------------------
+
+               September 23rd 2019, 19:17:08.379        Timestamp: 09/23/2019 13:47:07.9690821
+
+               September 23rd 2019, 19:17:08.379        Extended Properties: UserID - 0
+
+               September 23rd 2019, 19:17:08.379           *at PMPS.Web.WebAPIControllers.Account.AccountsController.IsCookieExists() in C:\app\Web\PMPS.Web\WebAPIControllers\Account\AccountsController.cs:line 365*",Message: System.Exception: Exception of type 'System.Exception' was thrown*
+Deadlock,AWS-Prod(Reporting)-usp_Load_SR_OpportunityPipeline - Error : Transaction (Process ID 206) was deadlocked,MSMPC-2629,"September 24th 2019, 01:57:38.745        *Message: usp_Load_SR_OpportunityPipeline - Error : Transaction (Process ID 206) was deadlocked on lock resources with another* process and has been chosen as the deadlock victim. Rerun the transaction.",Message: usp_Load_SR_OpportunityPipeline - Error : Transaction (Process ID 206) was deadlocked on lock resources with another
+FR,"AWS-Prod(cMPS batch jobs) Message : Error 50000, Level 16, State 1, Procedure usp_UpdateEclipseDeals_AnnualPriceIncrease, Line 99, Message: Could not find EclipseDealID for EclipseDealName 'Premier Portfolio Special Pricing' Does not exists",MSMPC-2596,"September 18th 2019, 23:44:48.975        Message : Error 50000, Level 16, State 1*, Procedure usp_UpdateEclipseDeals_AnnualPriceIncrease, Line 99, Message: Could not find EclipseDealID for EclipseDealName 'Premier Portfolio Special Pricing' Does not exists*"," Procedure usp_UpdateEclipseDeals_AnnualPriceIncrease, Line 99, Message: Could not find EclipseDealID for EclipseDealName 'Premier Portfolio Special Pricing' Does not exists*"
+FR,Iedp-AWS-Prod(The controller for path '/images/footer-logo.png' was not found or does not implement IController.    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance),MSMPC-2583,"September 17th 2019, 19:15:50.727        Message: Url: [http://mpc-sponsor-prd.int.hp.com/images/footer-logo.png], HttpMethod: GET, Error details: *The controller for path '/images/footer-logo.png' was not found or does not implement IController.    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance*(RequestContext requestContext, Type controllerType)
+
+               September 17th 2019, 19:15:50.727        Severity: Information
+
+               September 17th 2019, 19:15:50.727        ----------------------------------------
+
+               September 17th 2019, 19:15:50.727        Extended Properties: UserID - 0
+
+               September 17th 2019, 19:15:50.727        Timestamp: 09/17/2019 13:45:49.8990926
+
+               September 17th 2019, 19:15:50.727           at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+
+               September 17th 2019, 19:15:50.727           at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+
+               September 17th 2019, 19:15:50.727           at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+
+               September 17th 2019, 19:15:50.727           at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+ 
+
+Message: *Url: [http://mpc-sponsor-prd.int.hp.com/images/hp-logo-white.png], HttpMethod: GET, Error details: The controller for path '/images/hp-logo-white.png' was not found or does not implement IController*.    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)","Message: Url: [http://mpc-sponsor-prd.int.hp.com/images/footer-logo.png], HttpMethod: GET, Error details: *The controller for path '/images/footer-logo.png' was not found or does not implement IController.    at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance*"
+NFR,Message: System.Net.WebException: The remote server returned an error: (502) Bad Gateway.,MSMPC-2586,"|Message: Updated the  status of workFlowQueueTaskID 545546 to InProgress
+               September 17th 2019, 19:49:08.355        ----------------------------------------
+               September 17th 2019, 19:49:08.355        Message: Executing workflowID 1752 and Reference Module ID is :14570
+               September 17th 2019, 19:49:08.354           at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.GetDevicesFromFOAPI(String customerId) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler.cs:line 1031
+               September 17th 2019, 19:49:08.354           at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler.cs:line 223
+               September 17th 2019, 19:49:08.354        Message: Updated the  status of workFlowQueueTaskID 545539 to Failed
+               September 17th 2019, 19:49:08.354        EventId: 1
+               September 17th 2019, 19:49:08.354       
+               September 17th 2019, 19:49:08.354        EventId: 1
+               September 17th 2019, 19:49:08.354        Severity: Information
+               September 17th 2019, 19:49:08.354       
+               September 17th 2019, 19:49:08.354        Category: General
+               September 17th 2019, 19:49:08.354        Machine: EC2AMAZ-86VIPBS
+               September 17th 2019, 19:49:08.354        Message: Fetching Queued Task
+               September 17th 2019, 19:49:08.354        Timestamp: 9/17/2019 2:19:02 PM
+               September 17th 2019, 19:49:08.354        Priority: 1
+               September 17th 2019, 19:49:08.354           at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.CallFOAPI(String customerId, Int32 pageId) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler.cs:line 1089
+               September 17th 2019, 19:49:08.354        Category: General
+               September 17th 2019, 19:49:08.354       
+               September 17th 2019, 19:49:08.354        Timestamp: 9/17/2019 2:19:02 PM
+               September 17th 2019, 19:49:08.354        Machine: EC2AMAZ-86VIPBS
+               September 17th 2019, 19:49:08.354        ----------------------------------------
+               September 17th 2019, 19:49:08.354        Message:  Task status : errorlist count :1
+               September 17th 2019, 19:49:08.354        EventId: 1
+               September 17th 2019, 19:49:08.354        Timestamp: 9/17/2019 2:19:02 PM
+               September 17th 2019, 19:49:08.354       
+               September 17th 2019, 19:49:08.354        ----------------------------------------
+               September 17th 2019, 19:49:08.354        Timestamp: 9/17/2019 2:19:02 PM
+               September 17th 2019, 19:49:08.354        Priority: 1
+               September 17th 2019, 19:49:08.354        EventId: 1
+               September 17th 2019, 19:49:08.354        Severity: Error
+               September 17th 2019, 19:49:08.354        Severity: Information
+               September 17th 2019, 19:49:08.354        Priority: 1
+               September 17th 2019, 19:49:08.354        Timestamp: 9/17/2019 2:19:02 PM
+               September 17th 2019, 19:49:08.354        Severity: Information
+               September 17th 2019, 19:49:08.354        Category: General
+               September 17th 2019, 19:49:08.354        Priority: 1
+               September 17th 2019, 19:49:08.354        Category: General
+September 17th 2019, 19:49:08.354        *Message: System.Net.WebException: The remote server returned an error: (502) Bad Gateway.*
+               September 17th 2019, 19:49:08.354           at System.Net.HttpWebRequest.GetResponse()
+               September 17th 2019, 19:49:08.354        ----------------------------------------|",cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.GetDevicesFromFOAPI(String customerId) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler
+NFR,Iedp-AWS-Prod(052        An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.),MSMPC-2582,"September 17th 2019, 16:10:17.302           --- End of inner exception stack trace ---
+
+               September 17th 2019, 16:10:17.302           at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+
+               September 17th 2019, 16:10:17.302           at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+
+ 
+
+September 17th 2019, 16:09:06.053           at PMPS.Service.CRM.CustomerOrgUnitService.<>c__DisplayClass24_0.<Update>b__1() in C:\app\Service\PMPS.Service.Impl\CRM\CustomerOrgUnitService.cs:line 444
+
+               September 17th 2019, 16:09:06.053           at PMPS.Model.NHibernate.NHUnitOfWorkExtension.ExecuteOperationsAndCommit(Action operation, IsolationLevel isolationLevel) in C:\app\Model\PMPS.Model.NHibernate\NHUnitOfWorkExtension.cs:line 37
+
+               September 17th 2019, 16:09:06.053           at PMPS.Service.CRM.CustomerOrgUnitService.Update(CustomerOrgUnit customerOrgUnit) in C:\app\Service\PMPS.Service.Impl\CRM\CustomerOrgUnitService.cs:line 448
+
+               September 17th 2019, 16:09:06.053           at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+
+               September 17th 2019, 16:09:06.053           at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+
+               September 17th 2019, 16:09:06.053           at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+
+               September 17th 2019, 16:09:06.052        Message : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+               September 17th 2019, 16:09:06.052        Help link :
+
+               September 17th 2019, 16:09:06.052        LineNumber : 0
+
+               September 17th 2019, 16:09:06.052        *An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.*
+
+               September 17th 2019, 16:09:06.052        09/17/2019 10:39:00
+
+               September 17th 2019, 16:09:06.052        The statement has been terminated.
+
+               September 17th 2019, 16:09:06.052        Source : .Net SqlClient Data Provider
+
+               September 17th 2019, 16:09:06.052        Number : -2
+
+               September 17th 2019, 16:09:06.052        Procedure :
+
+               September 17th 2019, 16:09:06.052        State : 0
+
+               September 17th 2019, 16:09:06.052        ErrorCode : -2146232060
+
+               September 17th 2019, 16:09:06.052        Data : System.Collections.ListDictionaryInternal
+
+               September 17th 2019, 16:09:06.052        TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+
+               September 17th 2019, 16:09:06.052        Message: HandlingInstanceID: 31869019-71ce-4f6e-87f1-43dca59a0df9
+
+               September 17th 2019, 16:09:06.052        ClientConnectionId : c81eb812-73dc-48d3-8fcb-66a9e73ab01f
+
+               September 17th 2019, 16:09:06.052        Server : managed-print-central-prd.cvreuzsf8rfz.us-west-2.rds.amazonaws.com
+
+               September 17th 2019, 16:09:06.052        HResult : -2146232060
+
+               September 17th 2019, 16:09:06.052           at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+
+               September 17th 2019, 16:09:06.052           at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+
+               September 17th 2019, 16:09:06.052        ----------------------------------------
+
+               September 17th 2019, 16:09:06.052        Timestamp: 09/17/2019 10:39:00.7782488
+
+               September 17th 2019, 16:09:06.052        ----------------------------------------------------------------------------------
+
+               September 17th 2019, 16:09:06.052        Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               September 17th 2019, 16:09:06.052        Errors : System.Data.SqlClient.SqlErrorCollection
+
+               September 17th 2019, 16:09:06.052        Class : 11
+
+               September 17th 2019, 16:09:06.052        Stack Trace :    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+
+               September 17th 2019, 16:09:06.052           at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+
+               September 17th 2019, 16:09:03.200        Message: EDPWebApiApplication_BeginRequest - [http://172.21.196.187/api/public/version]
+
+               September 17th 2019, 16:09:03.200        Severity: Information
+
+               September 17th 2019, 16:09:03.200        Win32 ThreadId:4120
+
+               September 17th 2019, 16:09:03.200        ----------------------------------------
+
+               September 17th 2019, 16:09:03.200        Message: GetSTSToken(): Did not get the cookie from portal : Requested URL /api/public/version
+
+               September 17th 2019, 16:09:03.200        Category: General",PMPS.Service.CRM.CustomerOrgUnitService.Update(CustomerOrgUnit customerOrgUnit) in C:\app\Service\PMPS.Service.Impl\CRM\CustomerOrgUnitService.cs:line 448
+FR,"aws-Prod(pMPS)- Procedure usp_DART_UpsertPrinterCostItem, Line 875, Message: Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls",MSMPC-2902," October 15th 2019, 21:10:26.139              *Message: System.Data.SqlClient.SqlException (0x80131904): Error 515, Level 16, State 2, Procedure usp_DART_UpsertPrinterCostItem, Line 875, Message: Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls. INSERT fails.*","*Message: System.Data.SqlClient.SqlException (0x80131904): Error 515, Level 16, State 2, Procedure usp_DART_UpsertPrinterCostItem, Line 875, Message: Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls. INSERT fails.*"
+FR,"AWS-Prod(pMPS)- , Procedure usp_DART_UpsertPrinterCostItem, Line 875, Message: Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls",MSMPC-2901,"October 15th 2019, 21:10:26.140              Message: Consolidated Error Message for GUID : 0c745d41-381e-4f8b-aac5-1428e9957017:  : Error 515, Level 16, State 2, Procedure *usp_DART_UpsertPrinterCostItem*, Line 875, Message: *Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls. INSERT fails*.
+
+ ","Message: Consolidated Error Message for GUID : 0c745d41-381e-4f8b-aac5-1428e9957017:  : Error 515, Level 16, State 2, Procedure *usp_DART_UpsertPrinterCostItem*, Line 875, Message: *Cannot insert the value NULL into column 'SeriesID', table 'SDP.dbo.SDP_BillingMeterType'; column does not allow nulls. INSERT fails"
+Deadlock,AWS-Prod(Reporting) - Message: usp_Load_SR_Opportunity_SFDC - Error : Transaction (Process ID 56) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.,MSMPC-2900,"October 11th 2019, 16:53:21.571              Message: *usp_Load_SR_Opportunity_SFDC* - *Error : Transaction (Process ID 56) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.*",Message: *usp_Load_SR_Opportunity_SFDC* - *Error : Transaction (Process ID 56) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.*
+FR,Aws-Prod(Sponsor)-Exception occured while creating a new ProposalObject reference not set to an instance of an object.,MSMPC-2914,"               October 16th 2019, 19:23:09.210              Extended Properties: UserID - 18893
+
+               October 16th 2019, 19:23:09.210              *An exception of type 'System.NullReferenceException' occurred and was caught.*
+
+               October 16th 2019, 19:23:09.210              Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               October 16th 2019, 19:23:09.210              Source : PMPS.Service.Impl
+
+               October 16th 2019, 19:23:09.210              Machine: PRODSPONSORHOST
+
+               October 16th 2019, 19:23:09.210              ProcessId: 784
+
+               October 16th 2019, 19:23:09.210              ProcessId: 784
+
+               October 16th 2019, 19:23:09.210              Win32 ThreadId:5928
+
+               October 16th 2019, 19:23:09.210              ----------------------------------------
+
+               October 16th 2019, 19:23:09.210              Timestamp: 10/16/2019 13:53:08.7975431
+
+               October 16th 2019, 19:23:09.210              Message: *Exception occured while creating a new ProposalObject reference not set to an instance of an object*.
+
+               October 16th 2019, 19:23:09.210              ProcessId: 784
+
+               October 16th 2019, 19:23:09.210              UserOrgID - 165
+
+               October 16th 2019, 19:23:09.210              ----------------------------------------
+
+               October 16th 2019, 19:23:09.210              ----------------------------------------
+
+               October 16th 2019, 19:23:09.210              Help link :
+
+               October 16th 2019, 19:23:09.210              HResult : -2147467261
+
+               October 16th 2019, 19:23:09.210              Stack Trace :    at PMPS.Service.Proposal.Implementations.DSCService.*CreateNewProposal*(ScenarioVersion existingScenarioVersion, ImportedPricingData importedPricingData, Boolean isAlternate) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSCService.cs:line 671
+
+               October 16th 2019, 19:23:09.210              TimeStamp : 10/16/2019 1:53:08 PM
+
+               October 16th 2019, 19:23:09.210              FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+               October 16th 2019, 19:23:09.210              ----------------------------------------
+
+               October 16th 2019, 19:23:09.210              Timestamp: 10/16/2019 13:53:08.7975431
+
+               October 16th 2019, 19:23:09.210              Category: General
+
+               October 16th 2019, 19:23:09.210              Machine: PRODSPONSORHOST
+
+               October 16th 2019, 19:23:09.209              Message: ***GetSTSToken - got the id90018637", Message: *Exception occured while creating a new ProposalObject reference not set to an instance of an object*.
+FR,AWS-Prod(Sponsor)-An exception of type 'System.IndexOutOfRangeException' occurred and was caught.,MSMPC-2913,"|October 17th 2019, 12:43:42.893              Message: Url: [http://mpc-sponsor-prd.int.hp.com/Channel/Channel/*DscApproveAfterPreview*], HttpMethod: POST, Elapsed time (ApplicationStartRequest till ApplicationEndRequest): 3235.6917
+               October 17th 2019, 12:43:42.893              EventId: 1
+               October 17th 2019, 12:43:42.893              Severity: Information
+               October 17th 2019, 12:43:42.893              ProcessId: 3964
+               October 17th 2019, 12:43:42.893              Machine: PRODSPONSORHOST
+               October 17th 2019, 12:43:42.892              Message: HandlingInstanceID: 7ac63cc6-b350-4b3e-a61a-9ab741497ead
+               October 17th 2019, 12:43:42.892              *An exception of type 'System.IndexOutOfRangeException' occurred and was caught.*
+               October 17th 2019, 12:43:42.892              -------------------------------------------------------------------------------
+               October 17th 2019, 12:43:42.892              10/17/2019 07:13:42
+               October 17th 2019, 12:43:42.892              Type : System.IndexOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+               October 17th 2019, 12:43:42.892              Source : System.Data
+               October 17th 2019, 12:43:42.892              Help link :
+               October 17th 2019, 12:43:42.892              HResult : -2146233080
+               October 17th 2019, 12:43:42.892              Stack Trace :    at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+               October 17th 2019, 12:43:42.892                 at PMPS.Model.NHibernate.Channel.ChannelScenarioVersionRepository.*GetPreviewData*(Int32 scenarioVersionId) in C:\app\Model\PMPS.Model.NHibernate\Channel\ChannelScenarioVersionRepository.cs:line 639
+               October 17th 2019, 12:43:42.892              ThreadIdentity : 90015960
+               October 17th 2019, 12:43:42.892              Priority: 0
+               October 17th 2019, 12:43:42.892              ProcessId: 3964
+               October 17th 2019, 12:43:42.892              Extended Properties:
+               October 17th 2019, 12:43:42.892              Win32 ThreadId:5392
+               October 17th 2019, 12:43:42.892              UserOrgID - 87
+               October 17th 2019, 12:43:42.892              ProcessId: 3964
+ |", PMPS.Model.NHibernate.Channel.ChannelScenarioVersionRepository.*GetPreviewData*(Int32 scenarioVersionId) in C:\app\Model\PMPS.Model.NHibernate\Channel\ChannelScenarioVersionRepository.cs:line 639
+FR,Aws-Prod(Customer)-Error details: String reference not set to an instance of a String.,MSMPC-2912,"| 
+               October 17th 2019, 00:31:43.545                 at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+               October 17th 2019, 00:31:43.545                 at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+               October 17th 2019, 00:31:43.545                 at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+               October 17th 2019, 00:31:43.545              Extended Properties: UserID - 13072
+               October 17th 2019, 00:31:43.545              Priority: 1
+               October 17th 2019, 00:31:43.545              EventId: 1
+               October 17th 2019, 00:31:43.545              ProcessId: 8468
+               October 17th 2019, 00:31:43.545              Severity: Information
+               October 17th 2019, 00:31:43.545              UserOrgID - 0
+               October 17th 2019, 00:31:43.545              Message: ***GetSTSToken():*** /crm/requests/servicetaskdetails
+               October 17th 2019, 00:31:43.544              Exception occurred while: while resolving.
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.GetExceptionPolicy(Exception exception, String policyName)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+               October 17th 2019, 00:31:43.544              ProcessId: 8468
+               October 17th 2019, 00:31:43.544              Timestamp: 10/16/2019 19:01:35.5105860
+               October 17th 2019, 00:31:43.544                 at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+               October 17th 2019, 00:31:43.544              Exception is: InvalidOperationException - The type ExceptionPolicyImpl has multiple constructors of length 2. Unable to disambiguate.
+               October 17th 2019, 00:31:43.544                Resolving Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyImpl,BusinessLogicPolicy
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+               October 17th 2019, 00:31:43.544                 --- End of inner exception stack trace ---
+               October 17th 2019, 00:31:43.544                 --- End of inner exception stack trace ---
+               October 17th 2019, 00:31:43.544                 at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+               October 17th 2019, 00:31:43.544              Category: General
+               October 17th 2019, 00:31:43.544              Machine: CUSTOMERPRODHOS
+               October 17th 2019, 00:31:43.544              ----------------------------------------
+               October 17th 2019, 00:31:43.544              ----------------------------------------
+               October 17th 2019, 00:31:43.544                 at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+               October 17th 2019, 00:31:43.544                 at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+               October 17th 2019, 00:31:43.544              ----------------------------------------
+               October 17th 2019, 00:31:43.544              -----------------------------------------------
+               October 17th 2019, 00:31:43.544              ---> System.InvalidOperationException: The type ExceptionPolicyImpl has multiple constructors of length 2. Unable to disambiguate.
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.ConstructorSelectorPolicyBase`1.FindLongestConstructor(Type typeToConstruct)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicy.HandleException(Exception exceptionToHandle, String policyName)
+               October 17th 2019, 00:31:43.544                 at PMPS.Service.CRM.RequestService.GetServiceDetails(Int32 serviceTaskId) in C:\app\Service\PMPS.Service.Impl\CRM\RequestService.cs:line 160
+               October 17th 2019, 00:31:43.544              EventId: 1
+               October 17th 2019, 00:31:43.544              Severity: Error
+               October 17th 2019, 00:31:43.544              Win32 ThreadId:3424
+               October 17th 2019, 00:31:43.544              *Message: Url: [http://mpc-customer-prd.ext.hp.com/CRM/Requests/ServiceTaskDetails?cid=32670&serviceTaskId=233299], HttpMethod: GET, Error details: String reference not set to an instance of a String.*
+               October 17th 2019, 00:31:43.544                 at ASP._Page_Views_Shared__Layout_cshtml.Execute() in c:\HPCustomer\Views\Shared\_Layout.cshtml:line 36
+               October 17th 2019, 00:31:43.544                 at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+               October 17th 2019, 00:31:43.544                 at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+               October 17th 2019, 00:31:43.544              Message: System.Exception: 1001 ---> Microsoft.Practices.ServiceLocation.ActivationException: Activation error occured while trying to get instance of type ExceptionPolicyImpl, key ""BusinessLogicPolicy"" ---> Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = ""Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyImpl"", name = ""BusinessLogicPolicy"".
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.ConstructorSelectorPolicyBase`1.SelectConstructor(IBuilderContext context, IPolicyList resolverPolicyDestination)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance[TService](String key)
+               October 17th 2019, 00:31:43.544                 at PMPS.Service.ServiceBase.HandleException(Exception& ex) in C:\app\Service\PMPS.Service.Impl\ServiceBase.cs:line 16
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+               October 17th 2019, 00:31:43.544                 --- End of inner exception stack trace ---
+               October 17th 2019, 00:31:43.544              Extended Properties: UserID - 13072
+               October 17th 2019, 00:31:43.544              Parameter name: name    at System.Globalization.CultureInfo..ctor(String name, Boolean useUserOverride)
+               October 17th 2019, 00:31:43.544                 at CallSite.Target(Closure , CallSite , Type , Object )
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+               October 17th 2019, 00:31:43.544                 at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+               October 17th 2019, 00:31:43.544              Timestamp: 10/16/2019 19:01:35.4028176
+               October 17th 2019, 00:31:43.544              At the time of the exception, the container was:
+               October 17th 2019, 00:31:43.544                at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key)
+               October 17th 2019, 00:31:43.544                 at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key)
+               October 17th 2019, 00:31:43.544                 at PMPS.Web.Controllers.CRM.RequestsController.ServiceTaskDetails(Int32 cid, Int32 serviceTaskId) in C:\app\Web\PMPS.Web\Controllers\CRM\RequestsController.cs:line 212
+               October 17th 2019, 00:31:43.544                 at lambda_method(Closure , ControllerBase , Object[] )
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+               October 17th 2019, 00:31:43.544                 at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+               October 17th 2019, 00:31:43.544              Priority: 1
+               October 17th 2019, 00:31:43.544              UserOrgID - 32670
+               October 17th 2019, 00:31:18.759             
+ |",PMPS.Service.CRM.RequestService.GetServiceDetails(Int32 serviceTaskId) in C:\app\Service\PMPS.Service.Impl\CRM\RequestService.cs:line 160
+NFR,"AWS-Prod(Iedp_cmps)-mpc-rds.cd40qupvbq4x.us-west-2.rds.amazonaws.com,1433 User ID=ITGReadWriteUser; Password=Write.Black.*8283.User@123; ",MSMPC-2909,"October 17th 2019, 12:24:41.897              Message: Exception occured for ProposalID:80962 , OpportunityID:105762 ,CustomerID:58011
+
+               October 17th 2019, 12:24:41.897              Message: PMPS.Infrastructure.ExceptionHandling.ExceptionTypes.BusinessLogicException: LÃ¼tfen Hata Jeton KimliÄŸini 49788811-bb2c-4526-8970-71d65027cff1 kullanarak HP'ye UlaÅŸÄ±n sekmesinden Destek bÃ¶lÃ¼mÃ¼ne baÅŸvurun.
+
+               October 17th 2019, 12:24:41.897                 at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.RethrowRecommended(Exception chainException, Exception originalException)
+
+               October 17th 2019, 12:24:41.897                 at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16
+
+               October 17th 2019, 12:24:41.897                 at PMPS.Service.Channel.ChannelDeviceService.*SaveManagedComponents*(ManagedComponentRequest request) in C:\app\Service\PMPS.Service.Impl\Channel\ChannelDeviceService.cs:line 630
+
+               October 17th 2019, 12:24:41.897              Procedure :
+
+               October 17th 2019, 12:24:41.897              Server : managed-print-central-prd.cvreuzsf8rfz.us-west-2.rds.amazonaws.com
+
+               October 17th 2019, 12:24:41.897              ErrorCode : -2146232060
+
+               October 17th 2019, 12:24:41.897              TargetSite : Boolean SaveManagedComponents(Int32, System.Data.DataTable)
+
+               October 17th 2019, 12:24:41.897              HResult : -2146232060
+
+               October 17th 2019, 12:24:41.897              Category: BLL
+
+               October 17th 2019, 12:24:41.897              Severity: Error
+
+               October 17th 2019, 12:24:41.897              HelpLink.EvtID - 8115
+
+               October 17th 2019, 12:24:41.897              Severity: Information
+
+               October 17th 2019, 12:24:41.897              ProcessId: 3712
+
+               October 17th 2019, 12:24:41.897              ----------------------------------------
+
+               October 17th 2019, 12:24:41.897                 *at CMPS.Web.WebAPIControllers.Proposal.ComponentDeviceAccessoriesController.SaveDeviceManagedComponents(List`1 componentsVm, Int32 custId, Int32 opportunityId, Int32 proposalId, Int32 setId, String deviceSku) in C:\app\Web\CMPS.Web\WebAPIControllers\Proposal\ComponentDeviceAccessoriesController.cs:line 507*
+
+               October 17th 2019, 12:24:41.897              EventId: 1
+
+               October 17th 2019, 12:24:41.897              State : 8
+
+               October 17th 2019, 12:24:41.897              Data : System.Collections.ListDictionaryInternal
+
+               October 17th 2019, 12:24:41.897              Stack Trace :    at PMPS.Model.NHibernate.Channel.ChannelDeviceRepository.SaveManagedComponents(Int32 scenarioVersionId, DataTable managedComponentsDataTable) in C:\app\Model\PMPS.Model.NHibernate\Channel\ChannelDeviceRepository.cs:line 429
+
+               October 17th 2019, 12:24:41.897                 at PMPS.Service.Channel.ChannelDeviceService.*SaveManagedComponents*(ManagedComponentRequest request) in C:\app\Service\PMPS.Service.Impl\Channel\ChannelDeviceService.cs:line 622
+
+               October 17th 2019, 12:24:41.897              Additional Info:
+
+               October 17th 2019, 12:24:41.897              TimeStamp : 10/17/2019 6:54:41 AM
+
+               October 17th 2019, 12:24:41.897              FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+
+               October 17th 2019, 12:24:41.897              EventId: 100
+
+               October 17th 2019, 12:24:41.897              ProcessId: 3712
+
+               October 17th 2019, 12:24:41.897              Win32 ThreadId:5432
+
+               October 17th 2019, 12:24:41.897              Extended Properties: HelpLink.ProdName - Microsoft SQL Server
+
+               October 17th 2019, 12:24:41.897              HelpLink.ProdVer - 13.00.5216
+
+               October 17th 2019, 12:24:41.897              HelpLink.EvtSrc - MSSQLServer
+
+               October 17th 2019, 12:24:41.897              Timestamp: 10/17/2019 06:54:41.3878733
+
+               October 17th 2019, 12:24:41.897              Priority: 1
+
+               October 17th 2019, 12:24:41.897              EventId: 1
+
+               October 17th 2019, 12:24:41.897              Machine: MYIEDPCMPSPRODH
+
+               October 17th 2019, 12:24:41.897                 at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)
+
+               October 17th 2019, 12:24:41.897              Priority: 1
+
+               October 17th 2019, 12:24:41.897              ProcessId: 3712
+
+               October 17th 2019, 12:24:41.897              MachineName : MYIEDPCMPSPRODH
+
+               October 17th 2019, 12:24:41.897              WindowsIdentity : IIS APPPOOL\HPIedpCMPSAppPool
+
+               October 17th 2019, 12:24:41.897              HelpLink.BaseHelpUrl - [http://go.microsoft.com/fwlink]
+
+               October 17th 2019, 12:24:41.897              ----------------------------------------
+
+               October 17th 2019, 12:24:41.897              Category: General
+
+               October 17th 2019, 12:24:41.897              ----------------------------------------
+
+               October 17th 2019, 12:24:41.897                 at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+
+               October 17th 2019, 12:24:41.897              Category: General
+
+               October 17th 2019, 12:24:41.897              Severity: Error
+
+               October 17th 2019, 12:24:41.897              Machine: MYIEDPCMPSPRODH
+
+               October 17th 2019, 12:24:41.897              Number : 8115
+
+               October 17th 2019, 12:24:41.897              AppDomainName : /LM/W3SVC/1450273545/ROOT-1-132156749583899456
+
+               October 17th 2019, 12:24:41.897              HelpLink.LinkId - 20476
+
+               October 17th 2019, 12:24:41.897              ----------------------------------------
+
+               October 17th 2019, 12:24:41.897              Win32 ThreadId:5432
+
+               October 17th 2019, 12:24:41.897              Extended Properties: UserID - 17542
+
+               October 17th 2019, 12:24:41.897              UserOrgID - 16100
+
+               October 17th 2019, 12:24:41.897              Timestamp: 10/17/2019 06:54:41.4347492
+
+               October 17th 2019, 12:24:41.897                 at PMPS.Service.Channel.ChannelDeviceService.*ValidateAndSaveDeviceManagedComponents*(Int32 scenarioVersionId, List`1 componentsToSave, String deviceSku, Int32 setId) in C:\app\Service\PMPS.Service.Impl\Channel\ChannelDeviceService.cs:line 4093
+
+               October 17th 2019, 12:24:41.896              Thread Name:
+
+               October 17th 2019, 12:24:41.896              Category:
+
+               October 17th 2019, 12:24:41.896              Priority: -1
+
+               October 17th 2019, 12:24:41.896              EventId: 6352
+
+               October 17th 2019, 12:24:41.896              Machine: MYIEDPCMPSPRODH
+
+               October 17th 2019, 12:24:41.896              Extended Properties:
+
+               October 17th 2019, 12:24:41.896              ----------------------------------------
+
+               October 17th 2019, 12:24:41.896              Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+
+               October 17th 2019, 12:24:41.896              The statement has been terminated.
+
+               October 17th 2019, 12:24:41.896              Source : .Net SqlClient Data Provider
+
+               October 17th 2019, 12:24:41.896              LineNumber : 0
+
+               October 17th 2019, 12:24:41.896              Machine: MYIEDPCMPSPRODH
+
+               October 17th 2019, 12:24:41.896              ProcessId: 3712
+
+               October 17th 2019, 12:24:41.896              Win32 ThreadId:5432
+
+               October 17th 2019, 12:24:41.896              Extended Properties: UserID - 17542
+
+               October 17th 2019, 12:24:41.896              UserOrgID - 16100
+
+               October 17th 2019, 12:24:41.896              Win32 ThreadId:5432
+
+               October 17th 2019, 12:24:41.896              Timestamp: 10/17/2019 06:54:41.3878733
+
+               October 17th 2019, 12:24:41.896              ----------------------------------------------------------------------------------
+
+               October 17th 2019, 12:24:41.896              Class : 16
+
+               October 17th 2019, 12:24:41.896              Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+               October 17th 2019, 12:24:41.896              *An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.*
+
+               October 17th 2019, 12:24:41.896              Message : Arithmetic overflow error converting numeric to data type numeric.
+
+               October 17th 2019, 12:24:41.896              *The data for table-valued parameter ""@ScenarioVersionManagedComponent"" doesn't conform to the table type of the parameter. SQL Server error is: 8115, state: 8*
+
+               *October 17th 2019, 12:24:41.896             Help link :* 
+
+               October 17th 2019, 12:24:41.896              Errors : System.Data.SqlClient.SqlErrorCollection
+
+               October 17th 2019, 12:24:41.896              ClientConnectionId : e858da97-a566-4175-8c4b-2d7db41aafab
+
+               October 17th 2019, 12:24:41.896              App Domain: /LM/W3SVC/1450273545/ROOT-1-132156749583899456
+
+               October 17th 2019, 12:24:41.896              ProcessId: 3712
+
+               October 17th 2019, 12:24:41.896              Message: HandlingInstanceID: 49788811-bb2c-4526-8970-71d65027cff1
+
+               October 17th 2019, 12:24:41.896              10/17/2019 06:54:41
+
+               October 17th 2019, 12:24:41.896              Title:
+
+               October 17th 2019, 12:24:41.896              Severity: Error
+
+               October 17th 2019, 12:24:41.896              ---------------------------------","Arithmetic overflow error converting numeric to data type numeric.*The data for table-valued parameter ""@ScenarioVersionManagedComponent"" doesn't conform to the table type of the parameter. SQL Server error"
+FR,AWS-Prod(Iedp-cMPS)-Message: System.ArgumentNullException: Value cannot be null.,MSMPC-2910,"October 16th 2019, 22:14:39.849              Message: *System.ArgumentNullException: Value cannot be null.*
+
+               October 16th 2019, 22:14:39.849              ----------------------------------------
+
+               October 16th 2019, 22:14:39.849              Timestamp: 10/16/2019 16:44:34.1745041
+
+               October 16th 2019, 22:14:39.849              An exception of type 'System.*InvalidOperationException'* occurred and was caught.
+
+               October 16th 2019, 22:14:39.849              Message : Sequence contains no elements
+
+               October 16th 2019, 22:14:39.849              HResult : -2146233079
+
+               October 16th 2019, 22:14:39.849              Stack Trace :    at System.Linq.Enumerable.Average(IEnumerable`1 source)
+
+               October 16th 2019, 22:14:39.849                 at PMPS.Service.Channel.ComponentPricingService.*GetPricesForManagedComponents*(GetPricesForManagedComponentsRequest request) in C:\app\Service\PMPS.Service.Impl\Channel\ComponentPricingService.cs:line 331",PMPS.Service.Channel.ComponentPricingService.*GetPricesForManagedComponents*(GetPricesForManagedComponentsRequest request) in C:\app\Service\PMPS.Service.Impl\Channel\ComponentPricingService.cs:line 331
+FR,Aws-Prod(Iedp)-Message: PMPS.Service.HardwarePricing.NegativeDnpException: Error in the application.,MSMPC-2911,"October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.Calculations.DeviceOrAccessoryCalculationHandler.InternalDoCalculations(CalculationContext context) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\DeviceOrAccessoryCalculationHandler.cs:line 19
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.Calculations.CalculationHandler.DoCalculations(CalculationContext context) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\CalculationHandler.cs:line 31
+
+               October 17th 2019, 14:29:20.583              ProcessId: 7388
+
+               October 17th 2019, 14:29:20.583              Extended Properties: UserID - 18482
+
+               October 17th 2019, 14:29:20.583              EventId: 1
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.Calculations.CalculationHandler.DoCalculations(CalculationContext context) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\CalculationHandler.cs:line 31
+
+               October 17th 2019, 14:29:20.583              Severity: Error
+
+               October 17th 2019, 14:29:20.583              Win32 ThreadId:4372
+
+               October 17th 2019, 14:29:20.583              ----------------------------------------
+
+               October 17th 2019, 14:29:20.583              Machine: MYIEDPPRODHOST
+
+               October 17th 2019, 14:29:20.583              UserOrgID - 26347
+
+               October 17th 2019, 14:29:20.583              ----------------------------------------
+
+               October 17th 2019, 14:29:20.583              Timestamp: 10/17/2019 08:59:19.7885559
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.Calculations.CalculationHandler.DoCalculations(CalculationContext context) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\CalculationHandler.cs:line 29
+
+               October 17th 2019, 14:29:20.583              Machine: MYIEDPPRODHOST
+
+               October 17th 2019, 14:29:20.583              ----------------------------------------
+
+               October 17th 2019, 14:29:20.583              Timestamp: 10/17/2019 08:59:19.7885559
+
+               October 17th 2019, 14:29:20.583              Severity: Information
+
+               October 17th 2019, 14:29:20.583              Extended Properties: UserID - 18482
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.HardwarePricingService.AdjustMarginAndOrAdditionalDiscount(AdjustMarginAndOrAdditionalDiscountRequest request) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\HardwarePricingService.cs:line 734
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Web.WebAPIControllers.Proposal.ProposalsController.PatchNew(Int32 opportunityId, Int32 proposalId, ProposalUpdateRequest model) in C:\app\Web\PMPS.Web\WebAPIControllers\Proposal\ProposalsController.cs:line 1162
+
+               October 17th 2019, 14:29:20.583              Priority: 1
+
+               October 17th 2019, 14:29:20.583              EventId: 1
+
+               October 17th 2019, 14:29:20.583              Message: Exception occured for ProposalID:123108 , OpportunityID:105733
+
+               October 17th 2019, 14:29:20.583              Priority: 1
+
+               October 17th 2019, 14:29:20.583              Win32 ThreadId:4372
+
+               October 17th 2019, 14:29:20.583              ----------------------------------------
+
+               October 17th 2019, 14:29:20.583              *Message: PMPS.Service.HardwarePricing.NegativeDnpException: Error in the application.*
+
+               October 17th 2019, 14:29:20.583                 at PMPS.Service.HardwarePricing.Calculations.DeviceOrAccessoryCalculationHandler.CalculateDetailsforLineItem(CalculationContext context, AbstractHardwareLineItem accessoryLineItem, AbstractHardwareLineItem printerLineItem) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\DeviceOrAccessoryCalculationHandler.cs:line 75
+
+               October 17th 2019, 14:29:20.583              Category: General
+
+               October 17th 2019, 14:29:20.583              UserOrgID - 26347
+
+               October 17th 2019, 14:29:19.582              Severity: Error
+
+               October 17th 2019, 14:29:19.582              Win32 ThreadId:4372
+
+               October 17th 2019, 14:29:19.582              ----------------------------------------
+
+               October 17th 2019, 14:29:19.582              Extended Properties: UserID - 18482
+
+               October 17th 2019, 14:29:19.582              UserOrgID - 26347
+
+               October 17th 2019, 14:29:19.582              Category:
+
+               October 17th 2019, 14:29:19.582              Priority: -1
+
+               October 17th 2019, 14:29:19.582              Machine: MYIEDPPRODHOST","MPS.Service.HardwarePricing.NegativeDnpException: Error in the application.*PMPS.Service.HardwarePricing.Calculations.DeviceOrAccessoryCalculationHandler.CalculateDetailsforLineItem(CalculationContext context, AbstractHardwareLineItem accessoryLineItem, AbstractHardwareLineItem printerLineItem) in C:\app\Service\PMPS.Service.Impl\HardwarePricing\Calculations\DeviceOrAccessoryCalculationHandler.cs:line 75"
+FR,Error: System.NullReferenceException: Object reference not set to an instance of an object.(AccountsController.cs:line 573),MSMPC-2243,"|August 20th 2019, 08:37:46.886|Message: Logout apiBaseUri: https://directory.stg.cd.id.hp.com| |
+| | | |
+| | | |
+| |August 20th 2019, 08:37:46.885|Message: Logout AuthAgentType: HPID,Portal Type:Partner|
+| | | |
+| | | |
+| |August 20th 2019, 08:37:46.884|Timestamp: 08/20/2019 03:07:45.2917097|
+| | | |
+| |August 20th 2019, 08:37:46.884|Message: System.Exception: Exception of type 'System.Exception' was thrown.|
+| | | |
+| | | |
+| |August 20th 2019, 08:37:46.884|Message: ***GetMPCSTSToken():*** did not get auth cookie and it fails|
+| | | |
+| |August 20th 2019, 08:37:46.884|Priority: 1|
+| | | |
+| |August 20th 2019, 08:37:46.884|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.884|Timestamp: 08/20/2019 03:07:45.2926853|
+| | | |
+| |August 20th 2019, 08:37:46.884|Message: ***Application_AcquireRequestState - Cuurent URL is:*** https%3a%2f%2fmpc-ui-itg.ext.hp.com%2findividual-customer%2f84208%3ftabs%3dservice%2cservicetickets|
+| | | |
+| |August 20th 2019, 08:37:46.884|Priority: 1|
+| | | |
+| |August 20th 2019, 08:37:46.884|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.884|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.884|at PMPS.Web.WebAPIControllers.Account.AccountsController.Logout() in C:\app\Web\PMPS.Web\WebAPIControllers\Account\AccountsController.cs:line 573|
+| | | |
+| |August 20th 2019, 08:37:46.884|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.884|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.884|Message: System.NullReferenceException: Object reference not set to an instance of an object.|
+| | | |
+| |August 20th 2019, 08:37:46.884|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.884|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.884|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.884|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.884|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.884|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.884|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.884|Category: General|
+| | | |
+| |August 20th 2019, 08:37:46.884|Severity: Information|
+| | | |
+| |August 20th 2019, 08:37:46.884|Win32 ThreadId:2912|
+| | | |
+| |August 20th 2019, 08:37:46.884|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 08:37:46.884|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.884|Timestamp: 08/20/2019 03:07:45.2926853|
+| | | |
+| |August 20th 2019, 08:37:46.884|Category: General|
+| | | |
+| |August 20th 2019, 08:37:46.884|at PMPS.Web.WebAPIControllers.Account.AccountsController.IsCookieExists() in C:\app\Web\PMPS.Web\WebAPIControllers\Account\AccountsController.cs:line 365|
+| | | |
+| |August 20th 2019, 08:37:46.884|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.884|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.884|Timestamp: 08/20/2019 03:07:45.2926853|
+| | | |
+| |August 20th 2019, 08:37:46.884|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.883|Win32 ThreadId:2912|
+| | | |
+| |August 20th 2019, 08:37:46.883|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|Message: IsCookieExists - auth ID is null. Redirecting to hpid.|
+| | | |
+| |August 20th 2019, 08:37:46.883|Category: General|
+| | | |
+| |August 20th 2019, 08:37:46.883|Priority: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Timestamp: 08/20/2019 03:07:45.2057678|
+| | | |
+| |August 20th 2019, 08:37:46.883|Win32 ThreadId:2912|
+| | | |
+| |August 20th 2019, 08:37:46.883|Win32 ThreadId:2912|
+| | | |
+| |August 20th 2019, 08:37:46.883|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Category: General|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Severity: Information|
+| | | |
+| |August 20th 2019, 08:37:46.883|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.883|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.883|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|Category: General|
+| | | |
+| |August 20th 2019, 08:37:46.883|Priority: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 08:37:46.883|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Message: IsCookieExists - Received exeption in processing.|
+| | | |
+| |August 20th 2019, 08:37:46.883|EventId: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Priority: 1|
+| | | |
+| |August 20th 2019, 08:37:46.883|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 08:37:46.883|Timestamp: 08/20/2019 03:07:45.2057678|
+| | | |
+| |August 20th 2019, 08:37:46.883|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|Timestamp: 08/20/2019 03:07:45.2057678|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|----------------------------------------|
+| | | |
+| |August 20th 2019, 08:37:46.883|Severity: Information|
+| | | |
+| |August 20th 2019, 08:37:46.883|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 08:37:46.883|Win32 ThreadId:2912|
+| | | |
+| |August 20th 2019, 08:37:46.883|Extended Properties: UserID - 0|
+| | | |
+| |August 20th 2019, 08:37:46.883|Severity: Information|
+| | | |
+| |August 20th 2019, 08:37:46.883|Message: ***Application_AcquireRequestState - Cuurent URL is:*** https%3a%2f%2fmpc-ui-itg.ext.hp.com%2findividual-customer%2f84208%3ftabs%3dservice%2cservicetickets|
+| | | |
+| |August 20th 2019, 08:37:46.882|Priority: 1|
+
+ ",at PMPS.Web.WebAPIControllers.Account.AccountsController.IsCookieExists() in C:\app\Web\PMPS.Web\WebAPIControllers\Account\AccountsController.cs:line 365
+FR,Iedp-cmps(ProcessConfigurationResponse - Failed - Error happened in ProcessConfigurationResponse ),MSMPC-2213,*Message:* ProcessConfigurationResponse - Failed - Error happened in ProcessConfigurationResponse : message is The remote server returned an error: (500) Internal Server Error. and stacktrace at System.Net.HttpWebRequest.GetResponse(),*Message:* ProcessConfigurationResponse - Failed - Error happened in ProcessConfigurationResponse : message is The remote server returned an error: (500) Internal Server Error. and stacktrace at System.Net.HttpWebRequest.GetResponse()
+NFR, Iedp-API host(SendUsersDetails - caught sql exception while sending details ),MSMPC-2212,"# *Message:* SendUsersDetails - caught sql exception while sending details for userID 28761 - message is A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) , stacktrace is at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity",SendUsersDetails - caught sql exception while sending details for userID 28761 - message is A network-related or instance-specific error occurred while establishing a connection to SQL Server.
+NFR,"Iedp-common (2.	Message: NHibernate.HibernateException: Creating a proxy instance failed ---> System.ArgumentException: Duplicate dynamic module name within an assembly)",MSMPC-2211,,
+FR,Error: at PMPS.Infrastructure.DocumentConverter.WPPDocumentProcess.FetchPresignedDocumentDownloadUrl,MSMPC-2234,"|August 19th 2019, 16:04:58.953|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.953|at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)|
+| |August 19th 2019, 16:04:58.953|Message: System.NullReferenceException: Object reference not set to an instance of an object.|
+| |August 19th 2019, 16:04:58.953|at PMPS.Infrastructure.DocumentConverter.WPPDocumentProcess.FetchPresignedDocumentDownloadUrl(String downloadUrl, String jobUrl, String method, String token, String tokenType, String contentLoc) in C:\app\Common\PMPS.Infrastructure\DocumentConverter\WPPDocumentProcess.cs:line 434|
+| |August 19th 2019, 16:04:58.953|Category: General|
+| |August 19th 2019, 16:04:58.953|Priority: 1|
+| |August 19th 2019, 16:04:58.953|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:58.953|Severity: Information|
+| |August 19th 2019, 16:04:58.953|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.953|File name: 'C:\HPIedp\App_Data\Templates\OutputDocs\Contract\GB\Classic\Contract__7713_637018076629510601.pdf'|
+| |August 19th 2019, 16:04:58.953|at System.IO.FileStream..ctor(String path, FileMode mode)|
+| |August 19th 2019, 16:04:58.953|Category: General|
+| |August 19th 2019, 16:04:58.953|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:58.953|----------------------------------------|
+| |August 19th 2019, 16:04:58.953|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.953|Extended Properties: UserID - 7713|
+| |August 19th 2019, 16:04:58.953|----------------------------------------|
+| |August 19th 2019, 16:04:58.953|Message: System.IO.FileNotFoundException: Could not find file 'C:\HPIedp\App_Data\Templates\OutputDocs\Contract\GB\Classic\Contract__7713_637018076629510601.pdf'.|
+| |August 19th 2019, 16:04:58.953|at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)|
+| |August 19th 2019, 16:04:58.953|at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)|
+| |August 19th 2019, 16:04:58.953|Severity: Error|
+| |August 19th 2019, 16:04:58.953|Extended Properties: UserID - 7713|
+| |August 19th 2019, 16:04:58.953|EventId: 1|
+| |August 19th 2019, 16:04:58.953|Severity: Error|
+| |August 19th 2019, 16:04:58.953|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.953|----------------------------------------|
+| |August 19th 2019, 16:04:58.953|Category: General|
+| |August 19th 2019, 16:04:58.953|at PMPS.Web.WebAPIControllers.Proposal.DocumentController.GetStreamFromFile(String filePath) in C:\app\Web\PMPS.Web\WebAPIControllers\Proposal\DocumentController.cs:line 457|
+| |August 19th 2019, 16:04:58.953|Priority: 1|
+| |August 19th 2019, 16:04:58.953|EventId: 1|
+| |August 19th 2019, 16:04:58.953|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.953|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.953|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.953|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.953|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.953|----------------------------------------|
+| |August 19th 2019, 16:04:58.953|Priority: 1|
+| |August 19th 2019, 16:04:58.953|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.953|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:58.953|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.953|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.952|EventId: 1|
+| |August 19th 2019, 16:04:58.952|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.952|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:58.952|Extended Properties: UserID - 7713|
+| |August 19th 2019, 16:04:58.952|Priority: 1|
+| |August 19th 2019, 16:04:58.952|Severity: Error|
+| |August 19th 2019, 16:04:58.952|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.952|EventId: 1|
+| |August 19th 2019, 16:04:58.952|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Priority: 1|
+| |August 19th 2019, 16:04:58.952|Severity: Information|
+| |August 19th 2019, 16:04:58.952|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Category: General|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Category: General|
+| |August 19th 2019, 16:04:58.952|Priority: 1|
+| |August 19th 2019, 16:04:58.952|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.952|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.952|Message: ***** During job create api process found below errors *****|
+| |August 19th 2019, 16:04:58.952|at PMPS.Infrastructure.DocumentConverter.WPPDocumentProcess.CreateJob(String tokenType, String token, String jobAPI, String downloadURL) in C:\app\Common\PMPS.Infrastructure\DocumentConverter\WPPDocumentProcess.cs:line 335|
+| |August 19th 2019, 16:04:58.952|Extended Properties: UserID - 7713|
+| |August 19th 2019, 16:04:58.952|UserOrgID - 6499|
+| |August 19th 2019, 16:04:58.952|Category: General|
+| |August 19th 2019, 16:04:58.952|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.952|Message: System.Exception: Exception of type 'System.Exception' was thrown.|
+| |August 19th 2019, 16:04:58.952|EventId: 1|
+| |August 19th 2019, 16:04:58.952|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:58.952|ProcessId: 2848|
+| |August 19th 2019, 16:04:58.952|Extended Properties: UserID - 7713|
+| |August 19th 2019, 16:04:58.952|----------------------------------------|
+| |August 19th 2019, 16:04:58.952|Timestamp: 08/19/2019 10:34:58.7371999|
+| |August 19th 2019, 16:04:58.952|Message: ***** During storage api download process found below errors *****|
+| |August 19th 2019, 16:04:58.952|Severity: Information|
+| |August 19th 2019, 16:04:58.952|Win32 ThreadId:4844|
+| |August 19th 2019, 16:04:57.949|EventId: 1|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|Timestamp: 08/19/2019 10:34:57.4051689|
+| |August 19th 2019, 16:04:57.949|Category: General|
+| |August 19th 2019, 16:04:57.949|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:57.949|Category: General|
+| |August 19th 2019, 16:04:57.949|Priority: 1|
+| |August 19th 2019, 16:04:57.949|Severity: Information|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|Category: General|
+| |August 19th 2019, 16:04:57.949|ProcessId: 2848|
+| |August 19th 2019, 16:04:57.949|Win32 ThreadId:5612|
+| |August 19th 2019, 16:04:57.949|UserOrgID - 0|
+| |August 19th 2019, 16:04:57.949|EventId: 1|
+| |August 19th 2019, 16:04:57.949|Extended Properties: UserID - 0|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|Win32 ThreadId:3516|
+| |August 19th 2019, 16:04:57.949|UserOrgID - 0|
+| |August 19th 2019, 16:04:57.949|Extended Properties: UserID - 0|
+| |August 19th 2019, 16:04:57.949|Priority: 1|
+| |August 19th 2019, 16:04:57.949|UserOrgID - 0|
+| |August 19th 2019, 16:04:57.949|EventId: 1|
+| |August 19th 2019, 16:04:57.949|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:57.949|ProcessId: 2848|
+| |August 19th 2019, 16:04:57.949|Timestamp: 08/19/2019 10:34:57.1014553|
+| |August 19th 2019, 16:04:57.949|Message: EDPWebApiApplication_BeginRequest - http://iedp-itg-aws.ext.hp.com/api/v1/Accounts/Active|
+| |August 19th 2019, 16:04:57.949|Priority: 1|
+| |August 19th 2019, 16:04:57.949|Severity: Information|
+| |August 19th 2019, 16:04:57.949|Machine: MYIEDPITGHOST|
+| |August 19th 2019, 16:04:57.949|Message: EDPWebApiApplication_BeginRequest - http://iedp-itg-aws.ext.hp.com/api/v1/Accounts/MyMPCPartnerOrgList|
+| |August 19th 2019, 16:04:57.949|Win32 ThreadId:4888|
+| |August 19th 2019, 16:04:57.949|Timestamp: 08/19/2019 10:34:57.6942281|
+| |August 19th 2019, 16:04:57.949|Extended Properties: UserID - 0|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|Severity: Information|
+| |August 19th 2019, 16:04:57.949|ProcessId: 2848|
+| |August 19th 2019, 16:04:57.949|----------------------------------------|
+| |August 19th 2019, 16:04:57.949|Message: EDPWebApiApplication_BeginRequest - http://iedp-itg-aws.ext.hp.com/api/v1/Accounts/GetMyDetails|
+| |August 19th 2019, 16:04:54.949|Priority: 1|","PMPS.Infrastructure.DocumentConverter.WPPDocumentProcess.CreateJob(String tokenType, String token, String jobAPI, String downloadURL) in C:\app\Common\PMPS.Infrastructure\DocumentConverter\WPPDocumentProcess.cs:line 335|"
+NFR,iedp error- This operation requires IIS integrated pipeline mode. ,MSMPC-2188,"| ||Time ||message||
+| |August 14th 2019, 21:55:38.677|EventId: 1|
+| |August 14th 2019, 21:55:38.677|Severity: Information|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:38.677|Category: General|
+| |August 14th 2019, 21:55:38.677|Win32 ThreadId:5432|
+| |August 14th 2019, 21:55:38.677|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:38.677|Timestamp: 08/14/2019 16:25:37.9634606|
+| |August 14th 2019, 21:55:38.677|Category: General|
+| |August 14th 2019, 21:55:38.677|Severity: Information|
+| |August 14th 2019, 21:55:38.677|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:38.677|ProcessId: 5128|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:38.677|Timestamp: 08/14/2019 16:25:37.9654130|
+| |August 14th 2019, 21:55:38.677|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:38.677|ProcessId: 5128|
+| |August 14th 2019, 21:55:38.677|Win32 ThreadId:5432|
+| |August 14th 2019, 21:55:38.677|Win32 ThreadId:5432|
+| |August 14th 2019, 21:55:38.677|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:38.677|UserOrgID - 0|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:38.677|EventId: 1|
+| |August 14th 2019, 21:55:38.677|UserOrgID - 0|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:38.677|Timestamp: 08/14/2019 16:25:37.8804567|
+| |August 14th 2019, 21:55:38.677|Message: ***GetSTSToken():*** did not get auth cookie and it fails|
+| |August 14th 2019, 21:55:38.677|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:38.677|Message: IsCookieExists - Cookie doesn't exists, redirecting to HPID.|
+| |August 14th 2019, 21:55:38.677|EventId: 1|
+| |August 14th 2019, 21:55:38.677|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:38.677|----------------------------------------|
+| |August 14th 2019, 21:55:37.676|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:37.676|----------------------------------------|
+| |August 14th 2019, 21:55:37.676|UserOrgID - 0|
+| |August 14th 2019, 21:55:37.675|----------------------------------------|
+| |August 14th 2019, 21:55:37.675|Message: Url: http://127.0.0.1/dummy.context, HttpMethod: GET, Error details: This operation requires IIS integrated pipeline mode. at System.Web.HttpResponse.get_Headers()|
+| |August 14th 2019, 21:55:37.675|at PMPS.Infrastructure.WebAPI.PMPSWebApiApplication.EDPWebApiApplication_PreSendRequestHeaders(Object sender, EventArgs e) in C:\app\Common\PMPS.Infrastructure\WebAPI\PMPSWebApiApplication.cs:line 179|
+| |August 14th 2019, 21:55:37.675|Category: General|
+| |August 14th 2019, 21:55:37.675|Severity: Information|
+| |August 14th 2019, 21:55:37.675|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:37.675|Category: General|
+| |August 14th 2019, 21:55:37.675|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:37.675|----------------------------------------|
+| |August 14th 2019, 21:55:37.675|Priority: 1|
+| |August 14th 2019, 21:55:37.675|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:37.675|Machine: MYIEDPITGHOST|
+| |August 14th 2019, 21:55:37.675|Priority: 1|
+| |August 14th 2019, 21:55:37.675|ProcessId: 5128|
+| |August 14th 2019, 21:55:37.675|Extended Properties: UserID - 0|
+| |August 14th 2019, 21:55:37.675|----------------------------------------|
+| |August 14th 2019, 21:55:37.675|Message: ***GetSTSToken():*** did not get auth cookie and it fails|
+| |August 14th 2019, 21:55:37.675|at System.Web.HttpApplication.RaiseOnPreSendRequestHeaders()|
+| |August 14th 2019, 21:55:37.675|UserOrgID - 0|
+| |August 14th 2019, 21:55:37.675|----------------------------------------|
+| |August 14th 2019, 21:55:37.675|Severity: Information|
+| |August 14th 2019, 21:55:37.675|UserOrgID - 0|
+| |August 14th 2019, 21:55:37.675|Win32 ThreadId:6188|
+| |August 14th 2019, 21:55:37.675|Message: EDPWebApiApplication_BeginRequest - http://iedp-itg-aws.ext.hp.com/api/v1/Accounts/IsCookieExists|
+| |August 14th 2019, 21:55:37.675|EventId: 1|
+| |August 14th 2019, 21:55:37.675|Severity: Information|
+| |August 14th 2019, 21:55:37.675|Timestamp: 08/14/2019 16:25:36.8472459|
+| |August 14th 2019, 21:55:37.675|Priority: 1|
+| |August 14th 2019, 21:55:37.675|EventId: 1|
+| |August 14th 2019, 21:55:37.675|ProcessId: 5128|
+| |August 14th 2019, 21:55:37.675|----------------------------------------|
+| |August 14th 2019, 21:55:37.675|Timestamp: 08/14/2019 16:25:36.8706973|
+| |August 14th 2019, 21:55:37.675|Win32 ThreadId:5004|
+| |August 14th 2019, 21:55:37.675|Timestamp: 08/14/2019 16:25:36.9165835|
+| |August 14th 2019, 21:55:37.675|Category: General|
+| |August 14th 2019, 21:55:37.675|EventId: 1|
+| |August 14th 2019, 21:55:37.675|ProcessId: 5128|","PMPS.Infrastructure.WebAPI.PMPSWebApiApplication.EDPWebApiApplication_PreSendRequestHeaders(Object sender, EventArgs e) in C:\app\Common\PMPS.Infrastructure\WebAPI\PMPSWebApiApplication.cs:line 179|"
+NFR,UAT batch job-System.Net.WebException: The remote server returned an error: (500) Internal Server Error.   ,MSMPC-2469,*Message2*: System.Net.WebException: The remote server returned an error: (500) Internal Server Error.   at System.Net.HttpWebRequest.GetResponse()at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.GetDevicesFromFOAPI(String customerId)c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler.cs:line 1031 at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\GHTaskHandler.cs:line 223,System.Net.WebException: The remote server returned an error: (500) Internal Server Error.   at System.Net.HttpWebRequest.GetResponse()at cMPSWorkFlowConsole.WorkFlow.GHTaskHandler.GetDevicesFromFOAPI
+NFR,AWS Prod(Sponsor)- 'System.OutOfMemoryException' was thrown,MSMPC-2579,"September 17th 2019, 14:24:41.427        *Message: System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown. (occurred 2-3 times in the given time frame)*
+
+               September 17th 2019, 14:24:41.427           at PMPS.Service.MDM.MDMExport.MDMExportService.ImportToCsv(DataTable dataTable) in C:\app\Service\PMPS.Service.Impl\MDM\MDMExport\MDMExportService.cs:line 579
+
+               September 17th 2019, 14:24:41.427        Win32 ThreadId:4720
+
+               September 17th 2019, 14:24:41.427        Extended Properties: UserID - 2826
+
+               September 17th 2019, 14:24:41.427        ----------------------------------------
+
+               September 17th 2019, 14:24:41.427        UserOrgID - 1209
+
+               September 17th 2019, 14:24:41.427        Timestamp: 09/17/2019 08:54:40.7966610
+
+               September 17th 2019, 14:24:41.427        Priority: 1
+
+               September 17th 2019, 14:24:41.427        ProcessId: 4388
+
+               September 17th 2019, 14:24:41.427        Timestamp: 09/17/2019 08:54:40.7966610
+
+               September 17th 2019, 14:24:41.427        Category: General
+
+               September 17th 2019, 14:24:41.427        EventId: 1
+
+               September 17th 2019, 14:24:41.427        Machine: PRODSPONSORHOST
+
+               September 17th 2019, 14:24:41.427        ProcessId: 4388
+
+               September 17th 2019, 14:24:41.427        UserOrgID - 1209
+
+               September 17th 2019, 14:24:41.427        Message: Url: [http://mpc-sponsor-prd.int.hp.com/BulkUpload/ExportMdmFile], HttpMethod: POST, Elapsed time (ApplicationStartRequest till ApplicationEndRequest): 17047.646
+
+               September 17th 2019, 14:24:41.427        Category: General
+
+               September 17th 2019, 14:24:41.427        Severity: Information
+
+               September 17th 2019, 14:24:41.427        Machine: PRODSPONSORHOST
+
+               September 17th 2019, 14:24:41.427        ----------------------------------------
+
+               September 17th 2019, 14:24:41.427           at PMPS.Service.MDM.MDMExport.MDMExportService.ExportCmpsRawData(ExportDataRequest request) in C:\app\Service\PMPS.Service.Impl\MDM\MDMExport\MDMExportService.cs:line 320",System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown. (occurred 2-3 times in the given time frame)*at PMPS.Service.MDM.MDMExport.MDMExportService.ImportToCsv(DataTable dataTable) in C:\app\Service\PMPS.Service.Impl\MDM\MDMExport\MDMExportService.cs:line 579
+FR,AWS Prod customer- 'ValidateNonloggedInServiceRequest' was not found on controller ,MSMPC-2547,"*Message-1 (**September 17th 2019, 03:15:10.859)* : Url: [http://mpc-customer-prd.ext.hp.com/Pub/Requests/ValidateNonloggedInServiceRequest?cid=0], HttpMethod: OPTIONS, Error details: A *public action method 'ValidateNonloggedInServiceRequest' was not found on controller* 'PMPS.Web.Controllers.Pub.PubController'.    at System.Web.Mvc.Controller.HandleUnknownAction(String actionName) *occurred nearly 15-20 times in the given time frame*",Url: [http://mpc-customer-prd.ext.hp.com/Pub/Requests/ValidateNonloggedInServiceRequest?cid=0]
+NFR,"AWS PROD(Reporting)System.Data.SqlClient.SqlException (0x80131904): The server principal ""ReadWriteUser"" is not able to access the database ""SDP"" under ",MSMPC-2515,"*Message2(September 14th 2019, 19:53:11.392):* System.Data.SqlClient.SqlException (0x80131904): The server principal ""ReadWriteUser"" is not able to access the database ""SDP"" under the current security context. usp_Load_SR_Customer - Error : The server principal ""ReadWriteUser"" is not able to access the database ""SDP"" under the current security context.","System.Data.SqlClient.SqlException (0x80131904): The server principal ""ReadWriteUser"" is not able to access the database ""SDP"" under the current security context. usp_Load_SR_Customer - Error : The server principal ""ReadWriteUser"" is not able to access the database ""SDP"" under the current security context"
+NFR,"UAT-Iedp-onboarding-Calling Gravity DCC Create Custome,System.Net.WebException: The operation has timed out.",MSMPC-2498,"*Message1* *September 13th 2019, 08:29:05**:* Exception Calling Gravity DCC Create Customer : System.Net.WebException: The operation has timed out.
+
+at OnBoarding.Service.Impl.SelfEnablement.DccIntegrationService.sendContactsInfoToGravity(Int32 customerOrgID, Contract contractDetails, GravityDCCAddUsersRequest gravityDCCAddUsersRequest) in C:\app\Service\SelfEnablement.Service.Impl\SelfEnablement\DccIntegrationService.cs:line 207","OnBoarding.Service.Impl.SelfEnablement.DccIntegrationService.sendContactsInfoToGravity(Int32 customerOrgID, Contract contractDetails, GravityDCCAddUsersRequest gravityDCCAddUsersRequest) in C:\app\Service\SelfEnablement.Service.Impl\SelfEnablement\DccIntegrationService.cs:line 207"
+Unknown,iedp-PROD(AWS) kibana errors,MSMPC-2482,"*iedp(AWS Production)*
+
+September 12th 2019, 11:47:56.345           at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)
+
+               *September 12th 2019, 11:47:56.345           at PMPS.Service.Proposal.Implementations.ProposalService.GetPricePointUnderLocations(GetPricePointsUnderLocationsRequest request) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 6772*
+
+               September 12th 2019, 11:47:56.345           at PMPS.Service.Proposal.Implementations.ProposalService.PopulateProposalDetails(InitProposalRequest proposalRequest, InitProposalResponse initProposalResponse, MpsOpportunityView opportunity) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 2817
+
+               September 12th 2019, 11:47:56.345        Extended Properties: UserID - 15173
+
+               September 12th 2019, 11:47:56.345        Timestamp: 09/12/2019 06:17:54.3525269
+
+               September 12th 2019, 11:47:56.345        Message: PMPS.Infrastructure.ExceptionHandling.ExceptionTypes.BusinessLogicException: Please contact Support via Contact HP with Error Token ID e2f7ef9f-ae24-4a11-be04-4592022624d1.
+
+               September 12th 2019, 11:47:56.345           at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)
+
+               September 12th 2019, 11:47:56.345           at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16
+
+               September 12th 2019, 11:47:56.345           *at PMPS.Web.WebAPIControllers.Proposal.ProposalCurrentStateController.GetCurrentState(Int32 custId, Int32 opportunityId, Int32 proposalId) in C:\app\Web\PMPS.Web\WebAPIControllers\Proposal\ProposalCurrentStateController.cs:line 137*
+
+An exception of type 'System.ArgumentException' occurred and was caught.        at *PMPS.Service.Proposal.Implementations.ProposalService.GetPriceListBasedOnScenarioAndCountry(Int32 opportunityID, Nullable`1 scenarioVersionID, List`1 programList, String mpsOpportunityMode, IEnumerable`1 supportedDevices, IList`1 allDevices, Boolean useMasterData, String salesMode) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 7285*","PMPS.Service.Proposal.Implementations.ProposalService.PopulateProposalDetails(InitProposalRequest proposalRequest, InitProposalResponse initProposalResponse, MpsOpportunityView opportunity) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 2817"
+Unknown,AWS-Prod(iedp)-Exception occured for ProposalID:120051 ,MSMPC-2550,"*Message- 3*
+
+An exception of type 'PMPS.Infrastructure.ExceptionHandling.ExceptionTypes.BusinessLogicException' occurred and was caught.
+
+               September 16th 2019, 23:17:11.486        09/16/2019 17:47:08
+
+               September 16th 2019, 23:17:11.486        Data : System.Collections.ListDictionaryInternal
+
+               September 16th 2019, 23:17:11.486           at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.RethrowRecommended(Exception chainException, Exception originalException)
+
+               September 16th 2019, 23:17:11.486        EventId: 100
+
+               September 16th 2019, 23:17:11.486        Machine: MYIEDPPRODHOST
+
+               September 16th 2019, 23:17:11.486        ProcessId: 4184
+
+               September 16th 2019, 23:17:11.486        ---------------------------------------------------------------------------------------------------------------------------
+
+               September 16th 2019, 23:17:11.486        Message : Please contact Support via Contact HP with Error Token ID 071367e3-321b-498a-a0a9-79d67603b0eb.
+
+               September 16th 2019, 23:17:11.486        Source : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling
+
+               September 16th 2019, 23:17:11.486        Help link :
+
+               September 16th 2019, 23:17:11.486           at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16
+
+               September 16th 2019, 23:17:11.486           *at PMPS.Service.Proposal.PricingService.PricingService.GetPayPerClickRatesFromSavingsTarget(GetPayPerClickRatesFromSavingsTargetRequest request) in C:\app\Service\PMPS.Service.Impl\Proposal\PricingService\PricingService.cs:line 9740*
+
+               September 16th 2019, 23:17:11.486        AppDomainName : /LM/W3SVC/1447213216/ROOT-2-132130303271859221
+
+               September 16th 2019, 23:17:11.486        Severity: Error
+
+               September 16th 2019, 23:17:11.486        Extended Properties:
+
+               September 16th 2019, 23:17:11.486        Priority: 1
+
+               September 16th 2019, 23:17:11.486        Severity: Information
+
+               September 16th 2019, 23:17:11.486        ----------------------------------------
+
+               September 16th 2019, 23:17:11.486        Timestamp: 09/16/2019 17:47:08.7597892
+
+               September 16th 2019, 23:17:11.486        HResult : -2146233088
+
+               September 16th 2019, 23:17:11.486           at *PMPS.Service.Proposal.PricingService.PricingService.BuildEnginePricingInformationForNewAndExistingEngines(GetPayPerClickRatesFromSavingsTargetRequest request, List`1 serviceCategoriesForEnginesUnderLocations, Dictionary`2 enginePricingInformationList, PricePoint pricepoint, Int32 location, Decimal accountAnnualRevenue, IList`1 engineData, Decimal pricePerDeviceForServices) in C:\app\Service\PMPS.Service.Impl\Proposal\PricingService\PricingService.cs:line 9923*
+
+               September 16th 2019, 23:17:11.486        Category: BLL
+
+               September 16th 2019, 23:17:11.486        Win32 ThreadId:4228
+
+               September 16th 2019, 23:17:11.486        Message: *Exception occured for ProposalID:120051*
+
+               September 16th 2019, 23:17:11.486        Stack Trace :    at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)
+
+               September 16th 2019, 23:17:11.486        MachineName : MYIEDPPRODHOST","PMPS.Service.Proposal.PricingService.PricingService.BuildEnginePricingInformationForNewAndExistingEngines(GetPayPerClickRatesFromSavingsTargetRequest request, List`1 serviceCategoriesForEnginesUnderLocations, Dictionary`2 enginePricingInformationList, PricePoint pricepoint, Int32 location, Decimal accountAnnualRevenue, IList`1 engineData, Decimal pricePerDeviceForServices) in C:\app\Service\PMPS.Service.Impl\Proposal\PricingService\PricingService"
+FR,Email job in workflowqueue is going to retrycount and failing in UAT stack,MSMPC-2439,"|September 11th 2019, 12:55:43.605|Message: System.Net.Mail.SmtpException: Service not available, closing transmission channel. The server response was: 4.7.0 g2t4689.austin.hpicorp.net Error: too many errors|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.SmtpClient.Send(MailMessage message)|
+| |September 11th 2019, 12:55:43.605|----------------------------------------|
+| |September 11th 2019, 12:55:43.605|Machine: EC2AMAZ-DPHT4MK|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)|
+| |September 11th 2019, 12:55:43.605|----------------------------------------|
+| |September 11th 2019, 12:55:43.605|Category: General|
+| |September 11th 2019, 12:55:43.605|----------------------------------------|
+| |September 11th 2019, 12:55:43.605|EventId: 1|
+| |September 11th 2019, 12:55:43.605|Timestamp: 9/11/2019 7:25:36 AM|
+| |September 11th 2019, 12:55:43.605|Category: Error|
+| |September 11th 2019, 12:55:43.605|Machine: EC2AMAZ-DPHT4MK|
+| |September 11th 2019, 12:55:43.605|at cMPSWorkFlowConsole.WorkFlow.AsyncEmailTaskHandler.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\AsyncEmailTaskHandler.cs:line 60|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)|
+| |September 11th 2019, 12:55:43.605|at PMPS.Infrastructure.Email.SMTPService.ActualSendEmail(EmailDetails emailDetails) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.Infrastructure\Email\SMTPService.cs:line 327|
+| |September 11th 2019, 12:55:43.605| |
+| |September 11th 2019, 12:55:43.605|----------------------------------------|
+| |September 11th 2019, 12:55:43.605|Severity: Information|
+| |September 11th 2019, 12:55:43.605|Timestamp: 9/11/2019 7:25:36 AM|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.RecipientCommand.CheckResponse(SmtpStatusCode statusCode, String response)|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.SmtpClient.Send(MailMessage message)|
+| |September 11th 2019, 12:55:43.605|Priority: 1|
+| |September 11th 2019, 12:55:43.605|Severity: Error|
+| |September 11th 2019, 12:55:43.605|Message: AsyncEmailSend_96556 : Exception Service not available, closing transmission channel. The server response was: 4.7.0 g2t4689.austin.hpicorp.net Error: too many errors occured while executing workFlowQueueTaskID 96556 and workFlowQueueID 95386|
+| |September 11th 2019, 12:55:43.605|Priority: 1|
+| |September 11th 2019, 12:55:43.605|EventId: 1|
+| |September 11th 2019, 12:55:43.605|Message: System.Net.Mail.SmtpException: Service not available, closing transmission channel. The server response was: 4.7.0 g2t4689.austin.hpicorp.net Error: too many errors|
+| |September 11th 2019, 12:55:43.605|at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)|
+| |September 11th 2019, 12:55:43.605|at PMPS.Infrastructure.Email.SMTPService.ActualSendEmail(EmailDetails emailDetails) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.Infrastructure\Email\SMTPService.cs:line 339|
+| |September 11th 2019, 12:55:43.605|Timestamp: 9/11/2019 7:25:36 AM|
+| |September 11th 2019, 12:55:43.605|----------------------------------------|
+| |September 11th 2019, 12:55:43.605| |
+| |September 11th 2019, 12:54:48.537|Machine: EC2AMAZ-DPHT4MK|
+| |September 11th 2019, 12:54:48.537|Message: AsyncEmailSend_96556 : GetworkFlowTaskSpData1|
+| |September 11th 2019, 12:54:48.537| |
+| |September 11th 2019, 12:54:48.537|Process Name: D:\UAT\edp_batch_job\cmps1\cMPSWorkFlowConsole.exe|
+| |September 11th 2019, 12:54:48.537|----------------------------------------|
+| |September 11th 2019, 12:54:48.537| |
+| |September 11th 2019, 12:54:48.537|Message: There is no explicit mapping for the categories 'Info'. The log entry was:|
+| |September 11th 2019, 12:54:48.537|Win32 ThreadId:10016|
+| |September 11th 2019, 12:54:48.537|UserOrgID - 0|
+| |September 11th 2019, 12:54:48.537|Category:|
+| |September 11th 2019, 12:54:48.537|Severity: Error|
+| |September 11th 2019, 12:54:48.537|----------------------------------------|
+| |September 11th 2019, 12:54:48.537|----------------------------------------|
+| |September 11th 2019, 12:54:48.537|Category: Info|
+| |September 11th 2019, 12:54:48.537|EventId: 1|
+| |September 11th 2019, 12:54:48.537|Title:|
+| |September 11th 2019, 12:54:48.537|ProcessId: 7700|","Message: System.Net.Mail.SmtpException: Service not available, closing transmission channel. The server response was: 4.7.0 g2t4689.austin.hpicorp.net Error: too many errors|"
+FR,"Error:Procedure or function 'usp_GetScenarioVersionSoftwareItemAndFieldsInfo' expects parameter '@ScenarioVersionId', which was not supplied.",MSMPC-2322,"|August 28th 2019, 00:30:46.226|Severity: Information|
+| |August 28th 2019, 00:30:46.226|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.226|ProcessId: 4676|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)|
+| |August 28th 2019, 00:30:46.225|at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)|
+| |August 28th 2019, 00:30:46.225|at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)|
+| |August 28th 2019, 00:30:46.225|at PMPS.Service.Proposal.SolutionsService.SolutionsService.GetPersistedSoftwareList(Nullable`1 scenarioVersionId) in C:\app\Service\PMPS.Service.Impl\Proposal\SolutionsService\SolutionsService.cs:line 544|
+| |August 28th 2019, 00:30:46.225|at PMPS.Service.Proposal.Implementations.DSC.HPSolutionsInstallationExceptionRule.Validate(DSCReviewRequest request, DSCReviewResponse previousResponse, RulesState state, IEnumerable`1 masterExceptions, Boolean hasReviewedExceptions) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSC\DSCExceptionRules.cs:line 93|
+| |August 28th 2019, 00:30:46.225|EventId: 1|
+| |August 28th 2019, 00:30:46.225|Severity: Error|
+| |August 28th 2019, 00:30:46.225|ProcessId: 4676|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)|
+| |August 28th 2019, 00:30:46.225|at PMPS.Service.Proposal.SolutionsService.RepositoryExtensions.FindById(ISoftwareItemRepository repository, Nullable`1 scenarioVersionId) in C:\app\Service\PMPS.Service.Impl\Proposal\SolutionsService\SolutionsRepositoryExtensions.cs:line 401|
+| |August 28th 2019, 00:30:46.225|ClientConnectionId:cb04bbb6-3bff-4137-b241-bb9a83c71c8d|
+| |August 28th 2019, 00:30:46.225|Extended Properties: UserID - 5566|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)|
+| |August 28th 2019, 00:30:46.225|Category: General|
+| |August 28th 2019, 00:30:46.225|UserOrgID - 6484|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)|
+| |August 28th 2019, 00:30:46.225|at PMPS.Service.Proposal.SolutionsService.RepositoryExtensions.GetScenarioVersionSoftwareItemAndFieldsInfoDataTable(Nullable`1 scenarioVersionId) in C:\app\Service\PMPS.Service.Impl\Proposal\SolutionsService\SolutionsRepositoryExtensions.cs:line 393|
+| |August 28th 2019, 00:30:46.225|at PMPS.Service.Proposal.Implementations.DSCService.GetSystemGeneratedExceptions(DSCReviewRequest request) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSCService.cs:line 386|
+| |August 28th 2019, 00:30:46.225|Error Number:201,State:4,Class:16|
+| |August 28th 2019, 00:30:46.225|Priority: 1|
+| |August 28th 2019, 00:30:46.225|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.225|Win32 ThreadId:4456|
+| |August 28th 2019, 00:30:46.225|at System.Data.SqlClient.SqlDataReader.get_MetaData()|
+| |August 28th 2019, 00:30:46.225|at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)|
+| |August 28th 2019, 00:30:46.224|EventId: 1|
+| |August 28th 2019, 00:30:46.224|Severity: Information|
+| |August 28th 2019, 00:30:46.224|Extended Properties: UserID - 0|
+| |August 28th 2019, 00:30:46.224|UserOrgID - 0|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.224|Win32 ThreadId:4456|
+| |August 28th 2019, 00:30:46.224|Extended Properties: UserID - 0|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|Category: Service|
+| |August 28th 2019, 00:30:46.224|Severity: Information|
+| |August 28th 2019, 00:30:46.224|ProcessId: 4676|
+| |August 28th 2019, 00:30:46.224|Timestamp: 08/27/2019 19:00:45.7395885|
+| |August 28th 2019, 00:30:46.224|ProcessId: 4676|
+| |August 28th 2019, 00:30:46.224|Win32 ThreadId:4456|
+| |August 28th 2019, 00:30:46.224|Timestamp: 08/27/2019 19:00:45.9192846|
+| |August 28th 2019, 00:30:46.224|EventId: 1|
+| |August 28th 2019, 00:30:46.224|Severity: Information|
+| |August 28th 2019, 00:30:46.224|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.224|UserOrgID - 6484|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|Message: Exception in IsReviewNeeded for ProposalID:|
+| |August 28th 2019, 00:30:46.224|Category: General|
+| |August 28th 2019, 00:30:46.224|Severity: Information|
+| |August 28th 2019, 00:30:46.224|UserOrgID - 6484|
+| |August 28th 2019, 00:30:46.224|Message: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_GetScenarioVersionSoftwareItemAndFieldsInfo' expects parameter '@ScenarioVersionId', which was not supplied.|
+| |August 28th 2019, 00:30:46.224|ProcessId: 4676|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|Timestamp: 08/27/2019 19:00:45.6614705|
+| |August 28th 2019, 00:30:46.224|Category: General|
+| |August 28th 2019, 00:30:46.224|EventId: 1|
+| |August 28th 2019, 00:30:46.224|EventId: 1|
+| |August 28th 2019, 00:30:46.224|Category: General|
+| |August 28th 2019, 00:30:46.224|Severity: Information|
+| |August 28th 2019, 00:30:46.224|UserOrgID - 6484|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|----------------------------------------|
+| |August 28th 2019, 00:30:46.224|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.224|Extended Properties: UserID - 5566|
+| |August 28th 2019, 00:30:46.224|Priority: 1|
+| |August 28th 2019, 00:30:46.224|Machine: ITGSPONSORHOST|
+| |August 28th 2019, 00:30:46.224|Message: ***GetSTSToken - got the id21655088|
+| |August 28th 2019, 00:30:46.224|Priority: 1|","Message: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'usp_GetScenarioVersionSoftwareItemAndFieldsInfo' expects parameter '@ScenarioVersionId', which was not supplied.|"
+NFR,System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. ,MSMPC-2436,"This was found in the kibana logs of production.
+
+*Message*: System.Exception: 1001 ---> NHibernate.Exceptions.GenericADOException: could not load an entity: [PMPS.Model.DomainObjects.Common.SDPVersion#1][SQL: SELECT sdpversion0_.VersionID as VersionID105_0_, sdpversion0_.Version as Version105_0_, sdpversion0_.CacheVersion as CacheVer3_105_0_ FROM SDP_Version sdpversion0_ WHERE sdpversion0_.VersionID=?] ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The network path was not found","Message*: System.Exception: 1001 ---> NHibernate.Exceptions.GenericADOException: could not load an entity: [PMPS.Model.DomainObjects.Common.SDPVersion#1][SQL: SELECT sdpversion0_.VersionID as VersionID105_0_, sdpversion0_.Version as Version105_0_, sdpversion0_.CacheVersion as CacheVer3_105_0_ FROM SDP_Version sdpversion0_ WHERE sdpversion0_.VersionID=?] ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible"
+Unknown,Aws-Prod(BatchJobs2)-Error converting data type nvarchar to numeric.,MSMPC-2726,"|September 30th 2019, 21:02:22.331        Category: General
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.Wait()
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.Start(TextReader inputStream, TextWriter outStream, TextWriter errorStream) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 63
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.<>c__DisplayClass31_0`2.<ForEachWorker>b__0(Int32 i)
+               September 30th 2019, 21:02:22.330        Machine: EC2AMAZ-86VIPBS
+               September 30th 2019, 21:02:22.330        Priority: 1
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.ForWorker[TLocal](Int32 fromInclusive, Int32 toExclusive, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Func`4 bodyWithLocal, Func`1 localInit, Action`1 localFinally)
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.DoParallel(List`1 lqTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 140
+               September 30th 2019, 21:02:22.330        Processing Catalog ID : 2952
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.<>c__DisplayClass176_0.<ExecuteSelfReplicating>b__0(Object )
+               September 30th 2019, 21:02:22.330        ClientConnectionId:9ffe121a-cdae-43e5-aa79-75de2509b157
+               September 30th 2019, 21:02:22.330        Priority: 1
+               September 30th 2019, 21:02:22.330        Severity: Information
+               September 30th 2019, 21:02:22.330        ----------------------------------------
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.<>c__DisplayClass176_0.<ExecuteSelfReplicating>b__0(Object )
+               September 30th 2019, 21:02:22.330        Error converting data type varchar to numeric.
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               September 30th 2019, 21:02:22.330        Severity: Error
+               September 30th 2019, 21:02:22.330        EventId: 1
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.ForEachWorker[TSource,TLocal](IList`1 list, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Action`3 bodyWithStateAndIndex, Func`4 bodyWithStateAndLocal, Func`5 bodyWithEverything, Func`1 localInit, Action`1 localFinally)
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.ForEach[TSource](IEnumerable`1 source, Action`1 body)
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.SQLDal.ExecuteNonQuery(SPExecutionRequest req) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\DAL\SQLDal.cs:line 198
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 132
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.<DoParallel>b__8_0(QueueTask qtask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 140
+               September 30th 2019, 21:02:22.330        Error Number:50000,State:5,Class:16<---
+               September 30th 2019, 21:02:22.330       
+               September 30th 2019, 21:02:22.330        ----------------------------------------
+               September 30th 2019, 21:02:22.330        Timestamp: 9/30/2019 3:32:20 PM
+               September 30th 2019, 21:02:22.330        Message:  The level task has failed. we are not proceeding further
+               September 30th 2019, 21:02:22.330        Category: General
+               September 30th 2019, 21:02:22.330        Machine: EC2AMAZ-86VIPBS
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.InnerInvoke()
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+               September 30th 2019, 21:02:22.330           --- End of inner exception stack trace ---
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.ForEachWorker[TSource,TLocal](IEnumerable`1 source, ParallelOptions parallelOptions, Action`1 body, Action`2 bodyWithState, Action`3 bodyWithStateAndIndex, Func`4 bodyWithStateAndLocal, Func`5 bodyWithEverything, Func`1 localInit, Action`1 localFinally)
+               September 30th 2019, 21:02:22.330        *---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Error converting data type nvarchar to numeric.*
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+               September 30th 2019, 21:02:22.330           at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+               September 30th 2019, 21:02:22.330           at cMPSWorkFlowConsole.WorkFlow.SPTaskHandler.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\SPTaskHandler.cs:line 71
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Parallel.<>c__DisplayClass17_0`1.<ForWorker>b__1()
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.InnerInvoke()
+               September 30th 2019, 21:02:22.330           at System.Threading.Tasks.Task.InnerInvokeWithArg(Task childTask)
+               September 30th 2019, 21:02:22.330        Category: General
+               September 30th 2019, 21:02:22.330        EventId: 1
+               September 30th 2019, 21:02:22.330        ----------------------------------------
+               September 30th 2019, 21:02:22.330       
+               September 30th 2019, 21:02:22.329        ----------------------------------------
+               September 30th 2019, 21:02:22.329        Priority: 1
+               September 30th 2019, 21:02:22.329        EventId: 1
+               September 30th 2019, 21:02:22.329           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 132
+               September 30th 2019, 21:02:22.329        Severity: Information
+               September 30th 2019, 21:02:22.329       
+               September 30th 2019, 21:02:22.329        Error converting data type varchar to numeric.
+               September 30th 2019, 21:02:22.329        Category: General
+               September 30th 2019, 21:02:22.329       
+               September 30th 2019, 21:02:22.329        ----------------------------------------
+               September 30th 2019, 21:02:22.329        Timestamp: 9/30/2019 3:32:20 PM
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               September 30th 2019, 21:02:22.329        Message: Updated the  status of workFlowQueueTaskID 566394 to Failed
+               September 30th 2019, 21:02:22.329        ----------------------------------------
+               September 30th 2019, 21:02:22.329        EventId: 1
+               September 30th 2019, 21:02:22.329        ----------------------------------------
+               September 30th 2019, 21:02:22.329        Error converting data type varchar to numeric.
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+               September 30th 2019, 21:02:22.329           at cMPSWorkFlowConsole.WorkFlow.SPTaskHandler.Do(QueueTask qTask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\SPTaskHandler.cs:line 71
+               September 30th 2019, 21:02:22.329        Timestamp: 9/30/2019 3:32:20 PM
+               September 30th 2019, 21:02:22.329        Category: General
+               September 30th 2019, 21:02:22.329        Machine: EC2AMAZ-86VIPBS
+               September 30th 2019, 21:02:22.329        Message: Exception : Error converting data type nvarchar to numeric.
+               September 30th 2019, 21:02:22.329        Processing Catalog ID : 2952 occured while executing workflowID 322 and Task 412
+               September 30th 2019, 21:02:22.329        Machine: EC2AMAZ-86VIPBS
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+               September 30th 2019, 21:02:22.329        ----------------------------------------
+               September 30th 2019, 21:02:22.329        Timestamp: 9/30/2019 3:32:20 PM
+               September 30th 2019, 21:02:22.329        Priority: 1
+               September 30th 2019, 21:02:22.329        Severity: Information
+               September 30th 2019, 21:02:22.329        *Message: System.AggregateException: One or more errors occurred. ---> System.Data.SqlClient.SqlException: Error converting data type nvarchar to numeric.*
+               September 30th 2019, 21:02:22.329        Processing Catalog ID : 2952
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+               September 30th 2019, 21:02:22.329           at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+               September 30th 2019, 21:02:22.329           at cMPSWorkFlowConsole.WorkFlow.SQLDal.ExecuteNonQuery(SPExecutionRequest req) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\DAL\SQLDal.cs:line 198
+               September 30th 2019, 21:02:22.329           at cMPSWorkFlowConsole.WorkFlow.ProcessQueueTask.<DoParallel>b__8_0(QueueTask qtask) in c:\jenkins\workspace\MPC\MPC_DEV_BUILD_INFRA\Common\PMPS.All\cMPSWorkFlowConsole\WorkFlow\ProcessQueueTask.cs:line 140
+               September 30th 2019, 21:02:22.329           at System.Threading.Tasks.Parallel.<>c__DisplayClass31_0`2.<ForEachWorker>b__0(Int32 i)
+               September 30th 2019, 21:02:19.328           at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)|", Error converting data type varchar to numeric at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery
+Deadlock,"Aws-Prod(iedp-cmps),Procedure usp_CopyWonProposal, Line 189, Message: Transaction (Process ID 630) was deadlocked on lock resources with another process and has been chosen as the deadlock victim",MSMPC-2725,"September 30th 2019, 18:57:21.316        Message: System.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, Stat*e 56, Procedure usp_CopyWonProposal, Line 189, Message: Transaction (Process ID 630) was deadlocked on lock resources with another process and has been chosen as the deadlock victim.* Rerun the transaction.","Message: System.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, Stat*e 56, Procedure usp_CopyWonProposal, Line 189, Message: Transaction (Process ID 630) was deadlocked on lock resources with another process and has been chosen as the deadlock victim.* Rerun the transaction."
+Unknown,"Aws-Prod(Sponsor)-DSCService.CreateNewProposal(ScenarioVersion existingScenarioVersion, ImportedPricingData importedPricingData, Boolean isAlternate) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSCService",MSMPC-2694,"|September 26th 2019, 13:55:12.534        *An exception of type 'System.NullReferenceException' occurred and was caught.*
+               September 26th 2019, 13:55:12.534        -----------------------------------------------------------------------------
+               September 26th 2019, 13:55:12.534        09/26/2019 08:25:10
+               September 26th 2019, 13:55:12.534        Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+               September 26th 2019, 13:55:12.534        EventId: 1
+               September 26th 2019, 13:55:12.534        Machine: PRODSPONSORHOST
+               September 26th 2019, 13:55:12.534        ----------------------------------------
+               September 26th 2019, 13:55:12.534        Data : System.Collections.ListDictionaryInternal
+               September 26th 2019, 13:55:12.534        HResult : -2147467261
+               September 26th 2019, 13:55:12.534        UserOrgID - 87
+               September 26th 2019, 13:55:12.534        Message: HandlingInstanceID: 949372aa-4344-4090-8dba-15f857a6575f
+               September 26th 2019, 13:55:12.534        Message : *Object reference not set to an instance of an object.*
+               September 26th 2019, 13:55:12.534        TargetSite : Int32 CreateNewProposal(PMPS.Model.DomainObjects.Proposal.Scenario.ScenarioVersion, PMPS.Service.Proposal.Implementations.ImportedPricingData, Boolean)
+               September 26th 2019, 13:55:12.534        Stack Trace :    *at PMPS.Service.Proposal.Implementations.DSCService.CreateNewProposal(ScenarioVersion existingScenarioVersion, ImportedPricingData importedPricingData, Boolean isAlternate) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSCService.cs:line 671*
+               September 26th 2019, 13:55:12.534        Priority: 1
+               September 26th 2019, 13:55:12.534        Severity: Information
+               September 26th 2019, 13:55:12.534        ProcessId: 4728
+               September 26th 2019, 13:55:12.534        Extended Properties: UserID - 22884
+               September 26th 2019, 13:55:12.534        ----------------------------------------
+               September 26th 2019, 13:55:12.534        Source : PMPS.Service.Impl
+               September 26th 2019, 13:55:12.534        Timestamp: 09/26/2019 08:25:10.6958543
+               September 26th 2019, 13:55:12.534        Help link :
+               September 26th 2019, 13:55:12.533        Timestamp: 09/26/2019 08:25:10.6477361
+               September 26th 2019, 13:55:12.533        Win32 ThreadId:4800
+               September 26th 2019, 13:55:12.533        ----------------------------------------
+               September 26th 2019, 13:55:12.533        ProcessId: 4728
+               September 26th 2019, 13:55:12.533        Extended Properties: UserID - 22884
+               September 26th 2019, 13:55:12.533        ProcessId: 4728
+               September 26th 2019, 13:55:12.533        Extended Properties: UserID - 22884
+               September 26th 2019, 13:55:12.533        Category: General
+               September 26th 2019, 13:55:12.533        UserOrgID - 87
+               September 26th 2019, 13:55:12.533        Message: Exception occured for ProposalID:121589 , CustomerID:0 , PartnerID:|","Message : *Object reference not set to an instance of an object.*Int32 CreateNewProposal(PMPS.Model.DomainObjects.Proposal.Scenario.ScenarioVersion, PMPS.Service.Proposal.Implementations.ImportedPricingData, Boolean) at PMPS.Service.Proposal.Implementations.DSCService.CreateNewProposal(ScenarioVersion existingScenarioVersion, ImportedPricingData importedPricingData, Boolean isAlternate) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\DSCService.cs:line 671*"
+Unknown,"AWS-Prod(iedp-cmps)GET, Error details: Object reference not set to an instance of an object",MSMPC-2580," 
+
+September 17th 2019, 14:36:42.673        *Message: Url: [http://mpc-cmps-prd.ext.hp.com/api/v1/Customers/56327/Opportunities/102849/ComponentProposals/77505/GenerateDocuments?docType=ManagedComponentRateSheet&cultureCode=fr-FR]*, HttpMethod*: GET, Error details: Object reference not set to an instance of an object*.    at PMPS.Infrastructure.WebAPI.PMPSWebApiApplication.EDPWebApiApplication_PreSendRequestHeaders(Object sender, EventArgs e) in C:\app\Common\PMPS.Infrastructure\WebAPI\PMPSWebApiApplication.cs:line 179
+
+               September 17th 2019, 14:36:42.673           at System.Web.HttpApplication.SendResponseExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+
+               September 17th 2019, 14:36:42.673           at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)","Message: Url: [http://mpc-cmps-prd.ext.hp.com/api/v1/Customers/56327/Opportunities/102849/ComponentProposals/77505/GenerateDocuments?docType=ManagedComponentRateSheet&cultureCode=fr-FR]*, HttpMethod*: GET, Error details: Object reference not set to an instance of an object"
+NFR,AWS-Prod(iedp) -System.Data.SqlClient.SqlException: Execution Timeout Expired.,MSMPC-2581,"September 17th 2019, 16:10:17.303           at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+
+               September 17th 2019, 16:10:17.303           at NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+
+               September 17th 2019, 16:10:17.303           at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+               September 17th 2019, 16:10:17.303           at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+
+               September 17th 2019, 16:10:17.303           at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+
+               September 17th 2019, 16:10:17.303           at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+
+               September 17th 2019, 16:10:17.303           at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+
+               September 17th 2019, 16:10:17.303           at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+
+               September 17th 2019, 16:10:17.303           at lambda_method(Closure , Object , Object[] )
+
+               September 17th 2019, 16:10:17.303           at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+
+               September 17th 2019, 16:10:17.303           at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__5.MoveNext()
+
+               September 17th 2019, 16:10:17.303        --- End of stack trace from previous location where exception was thrown ---
+
+               September 17th 2019, 16:10:17.303           at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+               September 17th 2019, 16:10:17.303           at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+
+               September 17th 2019, 16:10:17.303           at PMPS.Web.WebAPIControllers.CRM.SiteController.GetSites(Int32 custId, String filter, Int32 page, Int32 rowCount) in C:\app\Web\PMPS.Web\WebAPIControllers\CRM\SiteController.cs:line 144
+
+               September 17th 2019, 16:10:17.303           at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+
+               September 17th 2019, 16:10:17.303        --- End of stack trace from previous location where exception was thrown ---
+
+               September 17th 2019, 16:10:17.303           at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+
+               September 17th 2019, 16:10:17.303           at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+
+               September 17th 2019, 16:10:17.303           --- End of inner exception stack trace ---
+
+               September 17th 2019, 16:10:17.303           at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+               September 17th 2019, 16:10:17.303        --- End of stack trace from previous location where exception was thrown ---
+
+               September 17th 2019, 16:10:17.303           at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+
+               September 17th 2019, 16:10:17.303           at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+
+               September 17th 2019, 16:10:17.303           at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+
+               September 17th 2019, 16:10:17.303        --- End of stack trace from previous location where exception was thrown ---
+
+               September 17th 2019, 16:10:17.303           at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+
+               September 17th 2019, 16:10:17.302           at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+
+               September 17th 2019, 16:10:17.302           at NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+
+               September 17th 2019, 16:10:17.302        ----------------------------------------
+
+               September 17th 2019, 16:10:17.302        Timestamp: 09/17/2019 10:40:12.3434279
+
+               September 17th 2019, 16:10:17.302           at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+
+               September 17th 2019, 16:10:17.302        *[SQL: SELECT this_.SiteID as SiteID19_5_, this_.BlockCostItemInheritance as BlockCos2_19_5_, this_.CreatedBy as CreatedBy19_5_, this_.Name as Name19_5_, this_.CreatedDate as CreatedD5_19_5_, this_.MarketTier as MarketTier19_5_, this_.GreenhouseGasEmissionFactor as Greenhou7_19_5_, this_.AverageCostPerkWh as AverageC8_19_5_, this_.ModifiedBy as ModifiedBy19_5_, this_.ModifiedDate as Modifie10_19_5_, this_.Requirements as Require11_19_5_, this_.Notes as Notes19_5_, this_.IsEscortRequired as IsEscor13_19_5_, this_.IsSafetyOrSecurityTrainingRequired as IsSafet14_19_5_, this_.AllowProactiveOnSiteServiceVisit as AllowPr15_19_5_, this_.IsActive as IsActive19_5_, this_.IsComplete as IsComplete19_5_, this_.IsLocked as IsLocked19_5_, this_.OperatingAsName as Operati19_19_5_, ousalias1_.OrgUnitSiteID as OrgUnitS1_7_0_, ousalias1_.OrgUnitID as OrgUnitID7_0_, ousalias1_.SiteID as SiteID7_0_, pmpsorguni4_.OrgUnitID as OrgUnitID14_1_, pmpsorguni4_.OrgName as OrgName14_1_, pmpsorguni4_.CreatedBy as CreatedBy14_1_, pmpsorguni4_.CreatedDate as CreatedD4_14_1_, pmpsorguni4_.ModifiedBy as ModifiedBy14_1_, pmpsorguni4_.ModifiedDate as Modified6_14_1_, pmpsorguni4_.Version as Version14_1_, pmpsorguni4_.FaxNumber as FaxNumber14_1_, pmpsorguni4_.ContactPhone1 as ContactP9_14_1_, pmpsorguni4_.ContactPhone2 as Contact10_14_1_, pmpsorguni4_.BusinessDesc as Busines11_14_1_, pmpsorguni4_.EmailAddress as EmailAd12_14_1_, pmpsorguni4_.OfficialWebsite as Officia13_14_1_, pmpsorguni4_.OrgTypeID as OrgTypeID14_1_, pmpsorguni4_.CountryId as CountryId14_1_, country5_.CountryId as CountryId4_2_, country5_.COUNTRYNAMECOMMONLANG as COUNTRYN2_4_2_, country5_.COUNTRYNAME as COUNTRYN3_4_2_, country5_.COUNTRYDESC as COUNTRYD4_4_2_, country5_.DEFAULTCULTUREID as DEFAULTC5_4_2_, country5_.ABBREVIATION as ABBREVIA6_4_2_, country5_.DeviceAverageAnnualRevenue as DeviceAv7_4_2_, country5_.GeoRegionID as GeoRegio8_4_2_, country5_.CurrencyID as CurrencyID4_2_, georegion6_.GeoRegionID as GeoRegio1_89_3_, georegion6_.Name as Name89_3_, site7_.SiteID as SiteID19_4_, site7_.BlockCostItemInheritance as BlockCos2_19_4_, site7_.CreatedBy as CreatedBy19_4_, site7_.Name as Name19_4_, site7_.CreatedDate as CreatedD5_19_4_, site7_.MarketTier as MarketTier19_4_, site7_.GreenhouseGasEmissionFactor as Greenhou7_19_4_, site7_.AverageCostPerkWh as AverageC8_19_4_, site7_.ModifiedBy as ModifiedBy19_4_, site7_.ModifiedDate as Modifie10_19_4_, site7_.Requirements as Require11_19_4_, site7_.Notes as Notes19_4_, site7_.IsEscortRequired as IsEscor13_19_4_, site7_.IsSafetyOrSecurityTrainingRequired as IsSafet14_19_4_, site7_.AllowProactiveOnSiteServiceVisit as AllowPr15_19_4_, site7_.IsActive as IsActive19_4_, site7_.IsComplete as IsComplete19_4_, site7_.IsLocked as IsLocked19_4_, site7_.OperatingAsName as Operati19_19_4_ FROM SDP_Site this_ inner join SDP_OrgunitSite ousalias1_ on this_.SiteID=ousalias1_.SiteID left outer join SDP_OrgUnit pmpsorguni4_ on ousalias1_.OrgUnitID=pmpsorguni4_.OrgUnitID left outer join SDP_Country country5_ on pmpsorguni4_.CountryId=country5_.CountryId left outer join SDP_GeoRegion georegion6_ on country5_.GeoRegionID=georegion6_.GeoRegionID left outer join SDP_Site site7_ on ousalias1_.SiteID=site7_.SiteID WHERE this_.IsActive = @p0 and ousalias1_.OrgUnitID = @p1] ---> System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out*
+
+              ",System.Data.SqlClient.SqlException: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out*
+Deadlock,"UAT Batch jobs-Procedure usp_InsertUpdateDCDevice, Line 164, Message: Transaction (Process ID 288) was deadlocked",MSMPC-2468,"*Message1*: System.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, State 52, *Procedure usp_InsertUpdateDCDevice*, Line 164, Message: Transaction (Process ID 288) was *deadlocked* on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction.","*Message1*: System.Data.SqlClient.SqlException (0x80131904): Error 1205, Level 13, State 52, *Procedure usp_InsertUpdateDCDevice*, Line 164, Message: Transaction (Process ID 288) was *deadlocked* on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction."
+FR,AWS Prod(Reporting) - usp_Load_SR_DollarPerYear - Error : Cannot insert the value NULL into column 'EncryptedBillingAmount',MSMPC-2516,"*Message1(**September 14th 2019, 21:53:13.401)**:* usp_Load_SR_DollarPerYear - Error : Cannot insert the value NULL into column 'EncryptedBillingAmount', table 'Reporting.dbo.SR_DollarPerYear'; column does not allow nulls. UPDATE fails.","*Message1(**September 14th 2019, 21:53:13.401)**:* usp_Load_SR_DollarPerYear - Error : Cannot insert the value NULL into column 'EncryptedBillingAmount', table 'Reporting.dbo.SR_DollarPerYear'; column does not allow nulls. UPDATE fails."
+FR,Error - HPID.GetAccessToken ,MSMPC-2242,"| |*Time* |*message*|
+| | | |
+| |August 20th 2019, 11:38:24.940|Message: CreateCookie - User not authorized i.e.UserNotAssociatedWithMPC|
+| | | |
+| |August 20th 2019, 11:38:24.938|Category: General|
+| | | |
+| |August 20th 2019, 11:38:24.938|EventId: 1|
+| | | |
+| |August 20th 2019, 11:38:24.938|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 11:38:24.938|Priority: 1|
+| | | |
+| |August 20th 2019, 11:38:24.938|Severity: Information|
+| | | |
+| |August 20th 2019, 11:38:24.938|*Message: CASC - token not received. for authcode = AWc7nCRAeesaa3d7C6NSzroEywK1AAAAAAAAAABLw3sRTVXGXwpYECcxUHGCNv0O1D3HACpnxTMfengGp8_IcBmy8-aFsTLF2cvbesjH7DOBv9VwwHA8Vxbc4YlOL70c_uRCx3czgedjjOczYw*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*ProcessId: 6432*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*Priority: 1*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*----------------------------------------*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*Timestamp: 08/20/2019 06:08:24.5257886*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*Extended Properties: UserID - 0*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*Message: GetAccessToken - caught exception - message is The remote server returned an error: (400) Bad Request., stacktrace is at System.Net.WebClient.UploadDataInternal(Uri address, String method, Byte[] data, WebRequest& request)*|
+| |August 20th 2019, 11:38:24.937|*at System.Net.WebClient.UploadString(Uri address, String method, String data)*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*Win32 ThreadId:2240*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*----------------------------------------*|
+| | | |
+| |August 20th 2019, 11:38:24.937|*at PMPS.Infrastructure.Web.HPID.GetAccessToken(String code, String redirectUri, Boolean fromSponsor) in C:\app\Common\PMPS.Infrastructure\Web\HPID.cs:line 187*|
+| | | |
+| |August 20th 2019, 11:38:24.937|Category: General|
+| | | |
+| |August 20th 2019, 11:38:24.937|EventId: 1|
+| | | |
+| |August 20th 2019, 11:38:24.937|Severity: Information|
+| | | |
+| |August 20th 2019, 11:38:24.937|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 11:38:24.937|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 11:38:24.936|Machine: MYIEDPITGHOST|
+| | | |
+| |August 20th 2019, 11:38:24.936|Message: ***GetSTSToken():*** did not get auth cookie and it fails|
+| | | |
+| |August 20th 2019, 11:38:24.936|Severity: Information|
+| | | |
+| |August 20th 2019, 11:38:24.936|ProcessId: 6432|
+| | | |
+| |August 20th 2019, 11:38:24.936|----------------------------------------|
+| | | |
+| |August 20th 2019, 11:38:24.936|Timestamp: 08/20/2019 06:08:24.5257886|
+| | | |
+| |August 20th 2019, 11:38:24.936|Win32 ThreadId:1840|
+| | | |
+| |August 20th 2019, 11:38:24.936|UserOrgID - 0|
+| | | |
+| |August 20th 2019, 11:38:24.936|Category: General|
+| | | |
+| |August 20th 2019, 11:38:24.936|Extended Properties: UserID - 0|
+
+ 
+
+ ","PMPS.Infrastructure.Web.HPID.GetAccessToken(String code, String redirectUri, Boolean fromSponsor) in C:\app\Common\PMPS.Infrastructure\Web\HPID.cs:line 187"
+Unknown,ITG-iedp(AWS)-Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding,MSMPC-2496,"The below error is happening very often in ITG environment in *iedp server*.
+
+ 
+|at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)| |
+| | |
+| |September 12th 2019, 15:05:41.549|at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.RethrowRecommended(Exception chainException, Exception originalException)|
+| | | |
+| |September 12th 2019, 15:05:41.549|at PMPS.Infrastructure.ExceptionHandling.ExceptionHandlers.BusinessLogicExceptionHandler.HandleException(Exception& ex) in C:\app\Common\PMPS.Infrastructure\ExceptionHandling\ExceptionHandlers\BusinessLogicExceptionHandler.cs:line 16|
+| | | |
+| |September 12th 2019, 15:05:41.549|at PMPS.Service.FleetDesignerService.Implementations.FleetDesignerService.GetFleetDesignerDevice(GetFleetDesignerDeviceRequest request) in C:\app\Service\PMPS.Service.Impl\FleetDesignerService\Implementations\FleetDesignerService.cs:line 250|
+| | | |
+| |September 12th 2019, 15:05:41.549|Severity: Error|
+| | | |
+| |September 12th 2019, 15:05:41.549|Extended Properties: UserID - 6363|
+| | | |
+| |September 12th 2019, 15:05:41.549|----------------------------------------|
+| | | |
+| |September 12th 2019, 15:05:41.549|HResult : -2147467259|
+| | | |
+| |September 12th 2019, 15:05:41.549|Stack Trace : The stack trace is unavailable.|
+| | | |
+| |September 12th 2019, 15:05:41.549|ProcessId: 1228|
+| | | |
+| |September 12th 2019, 15:05:41.549|Extended Properties: HelpLink.ProdName - Microsoft SQL Server|
+| | | |
+| |September 12th 2019, 15:05:41.549|Machine: MYIEDPITGHOST|
+| | | |
+| |September 12th 2019, 15:05:41.549|ProcessId: 1228|
+| | | |
+| |September 12th 2019, 15:05:41.549|at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.IntentionalRethrow(Exception chainException, Exception originalException)|
+| | | |
+| |September 12th 2019, 15:05:41.549|Category: BLL|
+| | | |
+| |September 12th 2019, 15:05:41.549|Severity: Error|
+| | | |
+| |September 12th 2019, 15:05:41.549|Win32 ThreadId:3452|
+| | | |
+| |September 12th 2019, 15:05:41.549|----------------------------------------|
+| | | |
+| |September 12th 2019, 15:05:41.549|at Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.ExceptionPolicyEntry.Handle(Exception exceptionToHandle)|
+| | | |
+| |September 12th 2019, 15:05:41.549|at PMPS.Model.NHibernate.FleetDesigner.Repositories.FleetDesignerDeviceSpRepository.GetFleetDesignerDeviceDetails(Int32 scenarioversionId, Int32 countryId, Func`2 ddpCalculator, Boolean isVatEnabled, Func`2 vatManipulator, Func`2 roundingFunc, Int32 makeId) in C:\app\Model\PMPS.Model.NHibernate\FleetDesigner\Repositories\FleetDesignerDeviceSpRepository.cs:line 221|
+| | | |
+| |September 12th 2019, 15:05:41.549|Priority: 1|
+| | | |
+| |September 12th 2019, 15:05:41.549|Timestamp: 09/12/2019 09:35:31.5805532|
+| | | |
+| |September 12th 2019, 15:05:41.549|Message: PMPS.Infrastructure.ExceptionHandling.ExceptionTypes.BusinessLogicException: An unknown error has occurred in Business Logic Layer while processing your request. Please contact Help Desk Support with Error Token ID 6ff2dc94-71ce-4692-a74b-58881e6f654f.|
+| | | |
+| |September 12th 2019, 15:05:41.548|Timestamp: 09/12/2019 09:35:31.5805532|
+| | | |
+| |September 12th 2019, 15:05:41.548|----------------------------------------------------------------------------------|
+| | | |
+| |September 12th 2019, 15:05:41.548|Errors : System.Data.SqlClient.SqlErrorCollection|
+| | | |
+| |September 12th 2019, 15:05:41.548|State : 0|
+| | | |
+| |September 12th 2019, 15:05:41.548|ErrorCode : -2146232060|
+| | | |
+| |September 12th 2019, 15:05:41.548|HResult : -2146232060|
+| | | |
+| |September 12th 2019, 15:05:41.548|Stack Trace : at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)|
+| | | |
+| |September 12th 2019, 15:05:41.548|WindowsIdentity : IIS APPPOOL\HPIedpAppPool|
+| | | |
+| |September 12th 2019, 15:05:41.548|Source :|
+| | | |
+| |September 12th 2019, 15:05:41.548|Data : System.Collections.ListDictionaryInternal|
+| | | |
+| |September 12th 2019, 15:05:41.548|Message: HandlingInstanceID: 6ff2dc94-71ce-4692-a74b-58881e6f654f|
+| | | |
+| |September 12th 2019, 15:05:41.548|Message : Execution Timeout Expired. The timeout period elapsed prior to completion of the operation or the server is not responding.|
+| | | |
+| |September 12th 2019, 15:05:41.548|Source : .Net SqlClient Data Provider|
+| | | |
+| |September 12th 2019, 15:05:41.548|Help link :|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.ExecuteReader()|
+| | | |
+| |September 12th 2019, 15:05:41.548|FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35|
+| | | |
+| |September 12th 2019, 15:05:41.548|Inner Exception|
+| | | |
+| |September 12th 2019, 15:05:41.548|---------------|
+| | | |
+| |September 12th 2019, 15:05:41.548|An exception of type 'System.Data.SqlClient.SqlException' occurred and was caught.|
+| | | |
+| |September 12th 2019, 15:05:41.548|09/12/2019 09:35:31|
+| | | |
+| |September 12th 2019, 15:05:41.548|Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|
+| | | |
+| |September 12th 2019, 15:05:41.548|Class : 11|
+| | | |
+| |September 12th 2019, 15:05:41.548|Server : mpc-rds.cd40qupvbq4x.us-west-2.rds.amazonaws.com,1433|
+| | | |
+| |September 12th 2019, 15:05:41.548|Data : System.Collections.ListDictionaryInternal|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)|
+| | | |
+| |September 12th 2019, 15:05:41.548|TimeStamp : 9/12/2019 9:35:31 AM|
+| | | |
+| |September 12th 2019, 15:05:41.548|Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|
+| | | |
+| |September 12th 2019, 15:05:41.548|ErrorCode : -2147467259|
+| | | |
+| |September 12th 2019, 15:05:41.548|----------------------------------------|
+| | | |
+| |September 12th 2019, 15:05:41.548|ClientConnectionId : 7858954c-9b7d-4a4c-8959-27f8627b955c|
+| | | |
+| |September 12th 2019, 15:05:41.548|TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)|
+| | | |
+| |September 12th 2019, 15:05:41.548|Additional Info:|
+| | | |
+| |September 12th 2019, 15:05:41.548|Help link :|
+| | | |
+| |September 12th 2019, 15:05:41.548|LineNumber : 0|
+| | | |
+| |September 12th 2019, 15:05:41.548|Number : -2|
+| | | |
+| |September 12th 2019, 15:05:41.548|Procedure :|
+| | | |
+| |September 12th 2019, 15:05:41.548|at System.Data.SqlClient.SqlDataReader.get_MetaData()|
+| | | |
+| |September 12th 2019, 15:05:41.548|at PMPS.Model.NHibernate.FleetDesigner.Repositories.FleetDesignerDeviceSpRepository.GetFleetDesignerDeviceDetails(Int32 scenarioversionId, Int32 countryId, Func`2 ddpCalculator, Boolean isVatEnabled, Func`2 vatManipulator, Func`2 roundingFunc, Int32 makeId) in C:\app\Model\PMPS.Model.NHibernate\FleetDesigner\Repositories\FleetDesignerDeviceSpRepository.cs:line 64|
+| | | |
+| |September 12th 2019, 15:05:41.548|MachineName : MYIEDPITGHOST|
+| | | |
+| |September 12th 2019, 15:05:41.548|AppDomainName : /LM/W3SVC/1447213216/ROOT-1-132126729554318237|
+| | | |
+| |September 12th 2019, 15:05:41.548|ThreadIdentity : w13cj7j97ebrd3zr9ui1ktzzy6edbogc|
+| | | |
+| |September 12th 2019, 15:05:41.548|Message : The wait operation timed out|
+| | | |
+| |September 12th 2019, 15:05:41.548|NativeErrorCode : 258|
+| | | |
+| |September 12th 2019, 15:04:56.522|EventId: 1|
+| | | |
+| |September 12th 2019, 15:04:56.522|----------------------------------------|
+| | | |
+| |September 12th 2019, 15:04:56.522|Machine: MYIEDPITGHOST|
+| | | |
+| |September 12th 2019, 15:04:56.522|ProcessId: 1228|
+
+ ","PMPS.Model.NHibernate.FleetDesigner.Repositories.FleetDesignerDeviceSpRepository.GetFleetDesignerDeviceDetails(Int32 scenarioversionId, Int32 countryId, Func`2 ddpCalculator, Boolean isVatEnabled, Func`2 vatManipulator, Func`2 roundingFunc, Int32 makeId) in C:\app\Model\PMPS.Model.NHibernate\FleetDesigner\Repositories\FleetDesignerDeviceSpRepository."
+NFR,Aws-Prod - Sql Timeouts ,MSMPC-2751,"Hi All,
+
+Kibana AWS Prod logs- 1st of Oct (10:45am) till 1st of Oct(08:45pm). Many Timeouts in this timeframe.
+
+ 
+|*Sl No*|*Server*|*Kibana Error Logs*|*Comments*|
+|1|cMPS Batch Jobs| 
+October 1st 2019, 13:38:15.081  ---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): *Execution Timeout Expired*.  *The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out*
+ 
+               October 1st 2019, 13:38:15.080  Message: System.AggregateException: One or more errors occurred. ---> System.Data.SqlClient.SqlException: *Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception: The wait operation timed out*
+ | 
+This has occurred nearly 10 -15 times in the mentioned time frame|
+|2|Sponsor| 
+               October 1st 2019, 17:48:54.795  Message: Exception occurred while getting the DSC Proposals Work QueueSystem.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+               October 1st 2019, 16:44:43.983  Message: Exception occurred while getting the DSC Proposals Work QueueSystem.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+               October 1st 2019, 12:44:47.544  Message: Exception occurred while getting the DSC Proposals Work QueueSystem.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+ | 
+This has occurred nearly 3 times in the mentioned time frame|
+|3|Iedp-cMPS| 
+October 1st 2019, 16:44:49.656  Message: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+ | 
+ |
+| 
+4|Iedp|              
+October 1st 2019, 18:54:46.735  Message: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+               October 1st 2019, 15:48:48.859  Message: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+               October 1st 2019, 12:43:41.293  Message: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+ | 
+This has occurred nearly 3 times in the mentioned time frame|
+
+ ",Message: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+NFR,AWS-Prod(ied)-System.Data.SqlClient.SqlException (0x80131904): A network-related ,MSMPC-3397,"November 29th 2019, 07:53:13.603         Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): The network path was not found
+
+ 
+
+               November 29th 2019, 07:50:32.919         [SQL: exec usp_GetServiceLevels ?,  ?] ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception: The network path was not found
+
+ 
+
+November 29th 2019, 07:50:32.923                        Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+ ",A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible.
+NFR,Iedp-AWS-prod(could not execute batch command.[SQL: SQL not available]),MSMPC-2549," 
+
+*September 16th 2019, 19:36:41.604        Message- 2 : could not execute batch command.[SQL: SQL not available]*
+
+               September 16th 2019, 19:36:41.604           at PMPS.Model.NHibernate.NHUnitOfWorkExtension.ExecuteOperationsAndCommit(Action operation, IsolationLevel isolationLevel) in C:\app\Model\PMPS.Model.NHibernate\NHUnitOfWorkExtension.cs:line 37
+
+               September 16th 2019, 19:36:41.604           at PMPS.Service.Proposal.Implementations.ProposalService.SaveOrUpdateProposal(SaveProposalRequest request) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 4635
+
+               September 16th 2019, 19:36:41.604        Extended Properties: UserID - 0
+
+               September 16th 2019, 19:36:41.604        Timestamp: 09/16/2019 14:06:40.1156780
+
+               September 16th 2019, 19:36:41.604        Message: Exception occured for ProposalID:120967 , OpportunityID:103452 , CustomerID:56694
+
+               September 16th 2019, 19:36:41.604        Priority: 1
+
+               September 16th 2019, 19:36:41.604        An exception of type 'NHibernate.Exceptions.GenericADOException' occurred and was caught.
+
+               September 16th 2019, 19:36:41.604        Data : System.Collections.ListDictionaryInternal
+
+               September 16th 2019, 19:36:41.604        Stack Trace :    at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps)
+
+               September 16th 2019, 19:36:41.604           at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps)
+
+               September 16th 2019, 19:36:41.604           at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch()
+
+               September 16th 2019, 19:36:41.604           at NHibernate.Engine.ActionQueue.ExecuteActions()
+
+               September 16th 2019, 19:36:41.604        Additional Info:
+
+               September 16th 2019, 19:36:41.604        TimeStamp : 9/16/2019 2:06:40 PM
+
+               September 16th 2019, 19:36:41.604        EventId: 1
+
+               September 16th 2019, 19:36:41.604        ProcessId: 4368
+
+               September 16th 2019, 19:36:41.604        Extended Properties: UserID - 2809
+
+               September 16th 2019, 19:36:41.604        ----------------------------------------
+
+               September 16th 2019, 19:36:41.604        Message: HandlingInstanceID: 0f2998fb-fd8a-476d-9c58-e2c5b738e4b3
+
+               September 16th 2019, 19:36:41.604        -----------------------------------------------------------------------------------------
+
+               September 16th 2019, 19:36:41.604        Source : NHibernate
+
+               September 16th 2019, 19:36:41.604        *SqlString : SQL not available*
+
+               *September 16th 2019, 19:36:41.604           at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)*
+
+               *September 16th 2019, 19:36:41.604           at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)*
+
+               September 16th 2019, 19:36:41.604        ----------------------------------------
+
+               September 16th 2019, 19:36:41.604        ----------------------------------------
+
+               September 16th 2019, 19:36:41.604        Win32 ThreadId:3372
+
+               September 16th 2019, 19:36:41.604        ----------------------------------------
+
+               September 16th 2019, 19:36:41.604        Type *: NHibernate.Exceptions.GenericADOException*, NHibernate, Version=3.3.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+
+               September 16th 2019, 19:36:41.604        TargetSite : Void DoExecuteBatch(System.Data.IDbCommand)
+
+               September 16th 2019, 19:36:41.604           at NHibernate.Impl.SessionImpl.Flush()
+
+               September 16th 2019, 19:36:41.604           at NHibernate.Transaction.AdoTransaction.Commit()
+
+               September 16th 2019, 19:36:41.604        MachineName : MYIEDPPRODHOST
+
+               September 16th 2019, 19:36:41.603        Extended Properties: UserID - 0
+
+               September 16th 2019, 19:36:41.603        ----------------------------------------
+
+               September 16th 2019, 19:36:41.603        Timestamp: 09/16/2019 14:06:39.8515299", could not execute batch command.[SQL: SQL not available]*at PMPS.Service.Proposal.Implementations.ProposalService.SaveOrUpdateProposal(SaveProposalRequest request) in C:\app\Service\PMPS.Service.Impl\Proposal\Implementations\ProposalService.cs:line 4635
