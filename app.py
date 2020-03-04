@@ -18,9 +18,9 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
 
-    output = round(prediction[0], 2)
+    #output = round(prediction[0], 2)
 
-    return render_template('index.html', prediction_text='Here is your Bug Type:: {}'.format(output))
+    return render_template('index.html', prediction_text='Here is your Bug Type:: {}'.format(prediction))
 
 
 if __name__ == "__main__":
